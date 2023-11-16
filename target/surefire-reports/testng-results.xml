@@ -1,0 +1,467 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="4" total="30" passed="26" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-11-15T23:09:24Z" name="Surefire suite" finished-at="2023-11-15T23:12:29Z" duration-ms="185401">
+    <groups>
+    </groups>
+    <test started-at="2023-11-15T23:09:24Z" name="Surefire test" finished-at="2023-11-15T23:12:29Z" duration-ms="185401">
+      <class name="com.naveenautomation.TestPages.SpecialPageTest">
+        <test-method is-config="true" signature="loggerSetup()[pri:0, instance:com.naveenautomation.TestPages.SpecialPageTest@5c86a017]" started-at="2023-11-15T23:10:12Z" name="loggerSetup" finished-at="2023-11-15T23:10:12Z" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loggerSetup -->
+        <test-method is-config="true" signature="launch()[pri:0, instance:com.naveenautomation.TestPages.SpecialPageTest@5c86a017]" started-at="2023-11-15T23:10:12Z" name="launch" finished-at="2023-11-15T23:10:18Z" duration-ms="6472" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="validateIfUserCanAddProductToCompareList()[pri:0, instance:com.naveenautomation.TestPages.SpecialPageTest@5c86a017]" started-at="2023-11-15T23:10:18Z" name="validateIfUserCanAddProductToCompareList" finished-at="2023-11-15T23:10:21Z" duration-ms="2430" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateIfUserCanAddProductToCompareList -->
+        <test-method is-config="true" signature="quitBrowser()[pri:0, instance:com.naveenautomation.TestPages.SpecialPageTest@5c86a017]" started-at="2023-11-15T23:10:21Z" name="quitBrowser" finished-at="2023-11-15T23:10:21Z" duration-ms="266" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+      </class> <!-- com.naveenautomation.TestPages.SpecialPageTest -->
+      <class name="com.naveenautomation.TestPages.AccountPageTest">
+        <test-method is-config="true" signature="loggerSetup()[pri:0, instance:com.naveenautomation.TestPages.AccountPageTest@5340477f]" started-at="2023-11-15T23:09:24Z" name="loggerSetup" finished-at="2023-11-15T23:09:24Z" duration-ms="79" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loggerSetup -->
+        <test-method is-config="true" signature="launch()[pri:0, instance:com.naveenautomation.TestPages.AccountPageTest@5340477f]" started-at="2023-11-15T23:09:24Z" name="launch" finished-at="2023-11-15T23:09:31Z" duration-ms="7134" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="validateIfUserCanFillAffiliateEditForm()[pri:0, instance:com.naveenautomation.TestPages.AccountPageTest@5340477f]" started-at="2023-11-15T23:09:31Z" name="validateIfUserCanFillAffiliateEditForm" finished-at="2023-11-15T23:09:35Z" duration-ms="3587" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateIfUserCanFillAffiliateEditForm -->
+        <test-method is-config="true" signature="quitBrowser()[pri:0, instance:com.naveenautomation.TestPages.AccountPageTest@5340477f]" started-at="2023-11-15T23:09:35Z" name="quitBrowser" finished-at="2023-11-15T23:09:35Z" duration-ms="250" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+        <test-method is-config="true" signature="launch()[pri:0, instance:com.naveenautomation.TestPages.AccountPageTest@5340477f]" started-at="2023-11-15T23:09:35Z" name="launch" finished-at="2023-11-15T23:09:39Z" duration-ms="3470" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="validateNewspaperSubsciption()[pri:0, instance:com.naveenautomation.TestPages.AccountPageTest@5340477f]" started-at="2023-11-15T23:09:39Z" name="validateNewspaperSubsciption" finished-at="2023-11-15T23:09:42Z" duration-ms="3288" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateNewspaperSubsciption -->
+        <test-method is-config="true" signature="quitBrowser()[pri:0, instance:com.naveenautomation.TestPages.AccountPageTest@5340477f]" started-at="2023-11-15T23:09:42Z" name="quitBrowser" finished-at="2023-11-15T23:09:42Z" duration-ms="159" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+        <test-method is-config="true" signature="launch()[pri:0, instance:com.naveenautomation.TestPages.AccountPageTest@5340477f]" started-at="2023-11-15T23:09:42Z" name="launch" finished-at="2023-11-15T23:09:47Z" duration-ms="4601" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="validateProductReturn()[pri:0, instance:com.naveenautomation.TestPages.AccountPageTest@5340477f]" started-at="2023-11-15T23:09:47Z" name="validateProductReturn" finished-at="2023-11-15T23:09:50Z" duration-ms="2855" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateProductReturn -->
+        <test-method is-config="true" signature="quitBrowser()[pri:0, instance:com.naveenautomation.TestPages.AccountPageTest@5340477f]" started-at="2023-11-15T23:09:50Z" name="quitBrowser" finished-at="2023-11-15T23:09:50Z" duration-ms="140" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+        <test-method is-config="true" signature="launch()[pri:0, instance:com.naveenautomation.TestPages.AccountPageTest@5340477f]" started-at="2023-11-15T23:09:50Z" name="launch" finished-at="2023-11-15T23:09:53Z" duration-ms="3353" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="validateUserCanUpdatePersonalInfo()[pri:0, instance:com.naveenautomation.TestPages.AccountPageTest@5340477f]" started-at="2023-11-15T23:09:53Z" name="validateUserCanUpdatePersonalInfo" finished-at="2023-11-15T23:09:57Z" duration-ms="3396" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateUserCanUpdatePersonalInfo -->
+        <test-method is-config="true" signature="quitBrowser()[pri:0, instance:com.naveenautomation.TestPages.AccountPageTest@5340477f]" started-at="2023-11-15T23:09:57Z" name="quitBrowser" finished-at="2023-11-15T23:09:57Z" duration-ms="162" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+      </class> <!-- com.naveenautomation.TestPages.AccountPageTest -->
+      <class name="com.naveenautomation.TestPages.AffiliateEditPageTest">
+        <test-method is-config="true" signature="loggerSetup()[pri:0, instance:com.naveenautomation.TestPages.AffiliateEditPageTest@7139992f]" started-at="2023-11-15T23:10:21Z" name="loggerSetup" finished-at="2023-11-15T23:10:21Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loggerSetup -->
+        <test-method is-config="true" signature="launch()[pri:0, instance:com.naveenautomation.TestPages.AffiliateEditPageTest@7139992f]" started-at="2023-11-15T23:10:21Z" name="launch" finished-at="2023-11-15T23:10:26Z" duration-ms="4926" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="validateUserFailedToEditAffilateWithNoPayeeInput()[pri:0, instance:com.naveenautomation.TestPages.AffiliateEditPageTest@7139992f]" started-at="2023-11-15T23:10:26Z" name="validateUserFailedToEditAffilateWithNoPayeeInput" finished-at="2023-11-15T23:10:29Z" duration-ms="3192" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateUserFailedToEditAffilateWithNoPayeeInput -->
+        <test-method is-config="true" signature="quitBrowser()[pri:0, instance:com.naveenautomation.TestPages.AffiliateEditPageTest@7139992f]" started-at="2023-11-15T23:10:29Z" name="quitBrowser" finished-at="2023-11-15T23:10:29Z" duration-ms="200" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+      </class> <!-- com.naveenautomation.TestPages.AffiliateEditPageTest -->
+      <class name="com.naveenautomation.TestPages.LoginPageTest">
+        <test-method is-config="true" signature="loggerSetup()[pri:0, instance:com.naveenautomation.TestPages.LoginPageTest@1500b2f3]" started-at="2023-11-15T23:11:21Z" name="loggerSetup" finished-at="2023-11-15T23:11:21Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loggerSetup -->
+        <test-method is-config="true" signature="launch()[pri:0, instance:com.naveenautomation.TestPages.LoginPageTest@1500b2f3]" started-at="2023-11-15T23:11:21Z" name="launch" finished-at="2023-11-15T23:11:24Z" duration-ms="3406" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="validateEmailForForgottenPassword()[pri:0, instance:com.naveenautomation.TestPages.LoginPageTest@1500b2f3]" started-at="2023-11-15T23:11:24Z" name="validateEmailForForgottenPassword" finished-at="2023-11-15T23:11:26Z" duration-ms="1346" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateEmailForForgottenPassword -->
+        <test-method is-config="true" signature="quitBrowser()[pri:0, instance:com.naveenautomation.TestPages.LoginPageTest@1500b2f3]" started-at="2023-11-15T23:11:26Z" name="quitBrowser" finished-at="2023-11-15T23:11:26Z" duration-ms="157" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+        <test-method is-config="true" signature="launch()[pri:0, instance:com.naveenautomation.TestPages.LoginPageTest@1500b2f3]" started-at="2023-11-15T23:11:27Z" name="launch" finished-at="2023-11-15T23:11:32Z" duration-ms="5406" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="validateLoginWithMultipleCredentials(java.lang.String, java.lang.String)[pri:0, instance:com.naveenautomation.TestPages.LoginPageTest@1500b2f3]" started-at="2023-11-15T23:11:32Z" name="validateLoginWithMultipleCredentials" data-provider="UserCredentials" finished-at="2023-11-15T23:11:34Z" duration-ms="1241" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mandy345@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[abcd@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLoginWithMultipleCredentials -->
+        <test-method is-config="true" signature="quitBrowser()[pri:0, instance:com.naveenautomation.TestPages.LoginPageTest@1500b2f3]" started-at="2023-11-15T23:11:34Z" name="quitBrowser" finished-at="2023-11-15T23:11:34Z" duration-ms="160" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+        <test-method is-config="true" signature="launch()[pri:0, instance:com.naveenautomation.TestPages.LoginPageTest@1500b2f3]" started-at="2023-11-15T23:11:34Z" name="launch" finished-at="2023-11-15T23:11:37Z" duration-ms="3530" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="validateLoginWithMultipleCredentials(java.lang.String, java.lang.String)[pri:0, instance:com.naveenautomation.TestPages.LoginPageTest@1500b2f3]" started-at="2023-11-15T23:11:37Z" name="validateLoginWithMultipleCredentials" data-provider="UserCredentials" finished-at="2023-11-15T23:11:38Z" duration-ms="1222" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sarkaria001@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[singh@4567]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLoginWithMultipleCredentials -->
+        <test-method is-config="true" signature="quitBrowser()[pri:0, instance:com.naveenautomation.TestPages.LoginPageTest@1500b2f3]" started-at="2023-11-15T23:11:38Z" name="quitBrowser" finished-at="2023-11-15T23:11:39Z" duration-ms="222" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+        <test-method is-config="true" signature="launch()[pri:0, instance:com.naveenautomation.TestPages.LoginPageTest@1500b2f3]" started-at="2023-11-15T23:11:39Z" name="launch" finished-at="2023-11-15T23:11:42Z" duration-ms="3277" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="validateLoginWithMultipleCredentials(java.lang.String, java.lang.String)[pri:0, instance:com.naveenautomation.TestPages.LoginPageTest@1500b2f3]" started-at="2023-11-15T23:11:42Z" name="validateLoginWithMultipleCredentials" data-provider="UserCredentials" finished-at="2023-11-15T23:11:43Z" duration-ms="1330" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sandeepkaur1@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[sandy]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLoginWithMultipleCredentials -->
+        <test-method is-config="true" signature="quitBrowser()[pri:0, instance:com.naveenautomation.TestPages.LoginPageTest@1500b2f3]" started-at="2023-11-15T23:11:43Z" name="quitBrowser" finished-at="2023-11-15T23:11:43Z" duration-ms="162" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+        <test-method is-config="true" signature="launch()[pri:0, instance:com.naveenautomation.TestPages.LoginPageTest@1500b2f3]" started-at="2023-11-15T23:11:43Z" name="launch" finished-at="2023-11-15T23:11:48Z" duration-ms="4619" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="validateLoginWithMultipleCredentials(java.lang.String, java.lang.String)[pri:0, instance:com.naveenautomation.TestPages.LoginPageTest@1500b2f3]" started-at="2023-11-15T23:11:48Z" name="validateLoginWithMultipleCredentials" data-provider="UserCredentials" finished-at="2023-11-15T23:11:49Z" duration-ms="1287" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[gurjapvirk@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[gurjap]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLoginWithMultipleCredentials -->
+        <test-method is-config="true" signature="quitBrowser()[pri:0, instance:com.naveenautomation.TestPages.LoginPageTest@1500b2f3]" started-at="2023-11-15T23:11:49Z" name="quitBrowser" finished-at="2023-11-15T23:11:50Z" duration-ms="175" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+        <test-method is-config="true" signature="launch()[pri:0, instance:com.naveenautomation.TestPages.LoginPageTest@1500b2f3]" started-at="2023-11-15T23:11:50Z" name="launch" finished-at="2023-11-15T23:11:56Z" duration-ms="6199" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="validateLoginWithMultipleCredentials(java.lang.String, java.lang.String)[pri:0, instance:com.naveenautomation.TestPages.LoginPageTest@1500b2f3]" started-at="2023-11-15T23:11:56Z" name="validateLoginWithMultipleCredentials" data-provider="UserCredentials" finished-at="2023-11-15T23:11:57Z" duration-ms="1256" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[suryaprakasha@live.in]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[goppa1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLoginWithMultipleCredentials -->
+        <test-method is-config="true" signature="quitBrowser()[pri:0, instance:com.naveenautomation.TestPages.LoginPageTest@1500b2f3]" started-at="2023-11-15T23:11:57Z" name="quitBrowser" finished-at="2023-11-15T23:11:57Z" duration-ms="222" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+        <test-method is-config="true" signature="launch()[pri:0, instance:com.naveenautomation.TestPages.LoginPageTest@1500b2f3]" started-at="2023-11-15T23:11:57Z" name="launch" finished-at="2023-11-15T23:12:00Z" duration-ms="3237" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="validateUserCanLoginWithValidCredentials()[pri:0, instance:com.naveenautomation.TestPages.LoginPageTest@1500b2f3]" started-at="2023-11-15T23:12:00Z" name="validateUserCanLoginWithValidCredentials" finished-at="2023-11-15T23:12:02Z" duration-ms="1143" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateUserCanLoginWithValidCredentials -->
+        <test-method is-config="true" signature="quitBrowser()[pri:0, instance:com.naveenautomation.TestPages.LoginPageTest@1500b2f3]" started-at="2023-11-15T23:12:02Z" name="quitBrowser" finished-at="2023-11-15T23:12:02Z" duration-ms="184" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+        <test-method is-config="true" signature="launch()[pri:0, instance:com.naveenautomation.TestPages.LoginPageTest@1500b2f3]" started-at="2023-11-15T23:12:02Z" name="launch" finished-at="2023-11-15T23:12:05Z" duration-ms="3353" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="validateUserCanNotLoginWithInValidCredentials()[pri:0, instance:com.naveenautomation.TestPages.LoginPageTest@1500b2f3]" started-at="2023-11-15T23:12:05Z" name="validateUserCanNotLoginWithInValidCredentials" finished-at="2023-11-15T23:12:06Z" duration-ms="995" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateUserCanNotLoginWithInValidCredentials -->
+        <test-method is-config="true" signature="quitBrowser()[pri:0, instance:com.naveenautomation.TestPages.LoginPageTest@1500b2f3]" started-at="2023-11-15T23:12:06Z" name="quitBrowser" finished-at="2023-11-15T23:12:06Z" duration-ms="184" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+      </class> <!-- com.naveenautomation.TestPages.LoginPageTest -->
+      <class name="com.naveenautomation.TestPages.LogoutPageTest">
+        <test-method is-config="true" signature="launch()[pri:0, instance:com.naveenautomation.TestPages.LogoutPageTest@7eecb5b8]" started-at="2023-11-15T23:12:06Z" name="launch" finished-at="2023-11-15T23:12:11Z" duration-ms="4481" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method is-config="true" signature="loggerSetup()[pri:0, instance:com.naveenautomation.TestPages.LogoutPageTest@7eecb5b8]" started-at="2023-11-15T23:12:06Z" name="loggerSetup" finished-at="2023-11-15T23:12:06Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loggerSetup -->
+        <test-method signature="validateLogoutFunctionality()[pri:0, instance:com.naveenautomation.TestPages.LogoutPageTest@7eecb5b8]" started-at="2023-11-15T23:12:11Z" name="validateLogoutFunctionality" finished-at="2023-11-15T23:12:14Z" duration-ms="2833" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLogoutFunctionality -->
+        <test-method is-config="true" signature="quitBrowser()[pri:0, instance:com.naveenautomation.TestPages.LogoutPageTest@7eecb5b8]" started-at="2023-11-15T23:12:14Z" name="quitBrowser" finished-at="2023-11-15T23:12:14Z" duration-ms="151" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+      </class> <!-- com.naveenautomation.TestPages.LogoutPageTest -->
+      <class name="com.naveenautomation.TestPages.TransactionPageTest">
+        <test-method is-config="true" signature="launch()[pri:0, instance:com.naveenautomation.TestPages.TransactionPageTest@5c7bfdc1]" started-at="2023-11-15T23:10:29Z" name="launch" finished-at="2023-11-15T23:10:33Z" duration-ms="3474" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method is-config="true" signature="loggerSetup()[pri:0, instance:com.naveenautomation.TestPages.TransactionPageTest@5c7bfdc1]" started-at="2023-11-15T23:10:29Z" name="loggerSetup" finished-at="2023-11-15T23:10:29Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loggerSetup -->
+        <test-method signature="validateIfUserHasNotAnyTransaction()[pri:0, instance:com.naveenautomation.TestPages.TransactionPageTest@5c7bfdc1]" started-at="2023-11-15T23:10:33Z" name="validateIfUserHasNotAnyTransaction" finished-at="2023-11-15T23:10:35Z" duration-ms="2207" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateIfUserHasNotAnyTransaction -->
+        <test-method is-config="true" signature="quitBrowser()[pri:0, instance:com.naveenautomation.TestPages.TransactionPageTest@5c7bfdc1]" started-at="2023-11-15T23:10:35Z" name="quitBrowser" finished-at="2023-11-15T23:10:35Z" duration-ms="164" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+      </class> <!-- com.naveenautomation.TestPages.TransactionPageTest -->
+      <class name="com.naveenautomation.TestPages.ContactPageTest">
+        <test-method is-config="true" signature="loggerSetup()[pri:0, instance:com.naveenautomation.TestPages.ContactPageTest@69504ae9]" started-at="2023-11-15T23:10:35Z" name="loggerSetup" finished-at="2023-11-15T23:10:35Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loggerSetup -->
+        <test-method is-config="true" signature="launch()[pri:0, instance:com.naveenautomation.TestPages.ContactPageTest@69504ae9]" started-at="2023-11-15T23:10:35Z" name="launch" finished-at="2023-11-15T23:10:40Z" duration-ms="5295" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="validateIfContactUsFailedWithLessEnquiryChar()[pri:0, instance:com.naveenautomation.TestPages.ContactPageTest@69504ae9]" started-at="2023-11-15T23:10:40Z" name="validateIfContactUsFailedWithLessEnquiryChar" finished-at="2023-11-15T23:10:43Z" duration-ms="2833" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateIfContactUsFailedWithLessEnquiryChar -->
+        <test-method is-config="true" signature="quitBrowser()[pri:0, instance:com.naveenautomation.TestPages.ContactPageTest@69504ae9]" started-at="2023-11-15T23:10:43Z" name="quitBrowser" finished-at="2023-11-15T23:10:43Z" duration-ms="188" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+        <test-method is-config="true" signature="launch()[pri:0, instance:com.naveenautomation.TestPages.ContactPageTest@69504ae9]" started-at="2023-11-15T23:10:43Z" name="launch" finished-at="2023-11-15T23:10:47Z" duration-ms="3462" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="validateIfContactUsFailedWithNoEmailInput()[pri:0, instance:com.naveenautomation.TestPages.ContactPageTest@69504ae9]" started-at="2023-11-15T23:10:47Z" name="validateIfContactUsFailedWithNoEmailInput" finished-at="2023-11-15T23:10:50Z" duration-ms="2803" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateIfContactUsFailedWithNoEmailInput -->
+        <test-method is-config="true" signature="quitBrowser()[pri:0, instance:com.naveenautomation.TestPages.ContactPageTest@69504ae9]" started-at="2023-11-15T23:10:50Z" name="quitBrowser" finished-at="2023-11-15T23:10:50Z" duration-ms="145" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+      </class> <!-- com.naveenautomation.TestPages.ContactPageTest -->
+      <class name="com.naveenautomation.TestPages.DownloadPageTest">
+        <test-method is-config="true" signature="loggerSetup()[pri:0, instance:com.naveenautomation.TestPages.DownloadPageTest@28cda624]" started-at="2023-11-15T23:11:15Z" name="loggerSetup" finished-at="2023-11-15T23:11:15Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loggerSetup -->
+        <test-method is-config="true" signature="launch()[pri:0, instance:com.naveenautomation.TestPages.DownloadPageTest@28cda624]" started-at="2023-11-15T23:11:15Z" name="launch" finished-at="2023-11-15T23:11:19Z" duration-ms="3402" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="validateIfUserHasNotAnyDownloads()[pri:0, instance:com.naveenautomation.TestPages.DownloadPageTest@28cda624]" started-at="2023-11-15T23:11:19Z" name="validateIfUserHasNotAnyDownloads" finished-at="2023-11-15T23:11:21Z" duration-ms="1968" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateIfUserHasNotAnyDownloads -->
+        <test-method is-config="true" signature="quitBrowser()[pri:0, instance:com.naveenautomation.TestPages.DownloadPageTest@28cda624]" started-at="2023-11-15T23:11:21Z" name="quitBrowser" finished-at="2023-11-15T23:11:21Z" duration-ms="167" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+      </class> <!-- com.naveenautomation.TestPages.DownloadPageTest -->
+      <class name="com.naveenautomation.TestPages.RewardPageTest">
+        <test-method is-config="true" signature="launch()[pri:0, instance:com.naveenautomation.TestPages.RewardPageTest@475c9c31]" started-at="2023-11-15T23:09:57Z" name="launch" finished-at="2023-11-15T23:10:00Z" duration-ms="3468" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method is-config="true" signature="loggerSetup()[pri:0, instance:com.naveenautomation.TestPages.RewardPageTest@475c9c31]" started-at="2023-11-15T23:09:57Z" name="loggerSetup" finished-at="2023-11-15T23:09:57Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loggerSetup -->
+        <test-method signature="validateIfUserHasNoRewardPoints()[pri:0, instance:com.naveenautomation.TestPages.RewardPageTest@475c9c31]" started-at="2023-11-15T23:10:00Z" name="validateIfUserHasNoRewardPoints" finished-at="2023-11-15T23:10:02Z" duration-ms="2335" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateIfUserHasNoRewardPoints -->
+        <test-method is-config="true" signature="quitBrowser()[pri:0, instance:com.naveenautomation.TestPages.RewardPageTest@475c9c31]" started-at="2023-11-15T23:10:02Z" name="quitBrowser" finished-at="2023-11-15T23:10:03Z" duration-ms="221" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+      </class> <!-- com.naveenautomation.TestPages.RewardPageTest -->
+      <class name="com.naveenautomation.TestPages.MacPageTest">
+        <test-method is-config="true" signature="loggerSetup()[pri:0, instance:com.naveenautomation.TestPages.MacPageTest@126253fd]" started-at="2023-11-15T23:12:14Z" name="loggerSetup" finished-at="2023-11-15T23:12:14Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loggerSetup -->
+        <test-method is-config="true" signature="launch()[pri:0, instance:com.naveenautomation.TestPages.MacPageTest@126253fd]" started-at="2023-11-15T23:12:14Z" name="launch" finished-at="2023-11-15T23:12:21Z" duration-ms="6909" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="validateIfUserCanAddMacToWishList()[pri:0, instance:com.naveenautomation.TestPages.MacPageTest@126253fd]" started-at="2023-11-15T23:12:21Z" name="validateIfUserCanAddMacToWishList" finished-at="2023-11-15T23:12:23Z" duration-ms="2694" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateIfUserCanAddMacToWishList -->
+        <test-method is-config="true" signature="quitBrowser()[pri:0, instance:com.naveenautomation.TestPages.MacPageTest@126253fd]" started-at="2023-11-15T23:12:23Z" name="quitBrowser" finished-at="2023-11-15T23:12:24Z" duration-ms="235" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+      </class> <!-- com.naveenautomation.TestPages.MacPageTest -->
+      <class name="com.naveenautomation.TestPages.VoucherSuccessPageTest">
+        <test-method is-config="true" signature="launch()[pri:0, instance:com.naveenautomation.TestPages.VoucherSuccessPageTest@5276d6ee]" started-at="2023-11-15T23:10:50Z" name="launch" finished-at="2023-11-15T23:10:55Z" duration-ms="5586" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method is-config="true" signature="loggerSetup()[pri:0, instance:com.naveenautomation.TestPages.VoucherSuccessPageTest@5276d6ee]" started-at="2023-11-15T23:10:50Z" name="loggerSetup" finished-at="2023-11-15T23:10:50Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loggerSetup -->
+        <test-method signature="validateIfRequiredFieldsAreEmptyThenUserCannotBuyVoucher()[pri:0, instance:com.naveenautomation.TestPages.VoucherSuccessPageTest@5276d6ee]" started-at="2023-11-15T23:10:55Z" name="validateIfRequiredFieldsAreEmptyThenUserCannotBuyVoucher" finished-at="2023-11-15T23:10:59Z" duration-ms="3131" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateIfRequiredFieldsAreEmptyThenUserCannotBuyVoucher -->
+        <test-method is-config="true" signature="quitBrowser()[pri:0, instance:com.naveenautomation.TestPages.VoucherSuccessPageTest@5276d6ee]" started-at="2023-11-15T23:10:59Z" name="quitBrowser" finished-at="2023-11-15T23:10:59Z" duration-ms="150" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+        <test-method is-config="true" signature="launch()[pri:0, instance:com.naveenautomation.TestPages.VoucherSuccessPageTest@5276d6ee]" started-at="2023-11-15T23:10:59Z" name="launch" finished-at="2023-11-15T23:11:04Z" duration-ms="5760" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="validateIfUserCanBuyVoucher()[pri:0, instance:com.naveenautomation.TestPages.VoucherSuccessPageTest@5276d6ee]" started-at="2023-11-15T23:11:04Z" name="validateIfUserCanBuyVoucher" finished-at="2023-11-15T23:11:08Z" duration-ms="3284" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateIfUserCanBuyVoucher -->
+        <test-method is-config="true" signature="quitBrowser()[pri:0, instance:com.naveenautomation.TestPages.VoucherSuccessPageTest@5276d6ee]" started-at="2023-11-15T23:11:08Z" name="quitBrowser" finished-at="2023-11-15T23:11:08Z" duration-ms="208" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+      </class> <!-- com.naveenautomation.TestPages.VoucherSuccessPageTest -->
+      <class name="com.naveenautomation.TestPages.AddressPageTest">
+        <test-method is-config="true" signature="loggerSetup()[pri:0, instance:com.naveenautomation.TestPages.AddressPageTest@47caedad]" started-at="2023-11-15T23:10:03Z" name="loggerSetup" finished-at="2023-11-15T23:10:03Z" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loggerSetup -->
+        <test-method is-config="true" signature="launch()[pri:0, instance:com.naveenautomation.TestPages.AddressPageTest@47caedad]" started-at="2023-11-15T23:10:03Z" name="launch" finished-at="2023-11-15T23:10:06Z" duration-ms="3418" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="validateIfUserCanAddNewAddress()[pri:0, instance:com.naveenautomation.TestPages.AddressPageTest@47caedad]" started-at="2023-11-15T23:10:06Z" name="validateIfUserCanAddNewAddress" finished-at="2023-11-15T23:10:12Z" duration-ms="5443" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateIfUserCanAddNewAddress -->
+        <test-method is-config="true" signature="quitBrowser()[pri:0, instance:com.naveenautomation.TestPages.AddressPageTest@47caedad]" started-at="2023-11-15T23:10:12Z" name="quitBrowser" finished-at="2023-11-15T23:10:12Z" duration-ms="155" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+      </class> <!-- com.naveenautomation.TestPages.AddressPageTest -->
+      <class name="com.naveenautomation.TestPages.OrderHistoryPageTest">
+        <test-method is-config="true" signature="loggerSetup()[pri:0, instance:com.naveenautomation.TestPages.OrderHistoryPageTest@57db2b13]" started-at="2023-11-15T23:12:24Z" name="loggerSetup" finished-at="2023-11-15T23:12:24Z" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loggerSetup -->
+        <test-method is-config="true" signature="launch()[pri:0, instance:com.naveenautomation.TestPages.OrderHistoryPageTest@57db2b13]" started-at="2023-11-15T23:12:24Z" name="launch" finished-at="2023-11-15T23:12:27Z" duration-ms="3419" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="validateIfUserHasNotAnyOrderHistory()[pri:0, instance:com.naveenautomation.TestPages.OrderHistoryPageTest@57db2b13]" started-at="2023-11-15T23:12:27Z" name="validateIfUserHasNotAnyOrderHistory" finished-at="2023-11-15T23:12:29Z" duration-ms="2143" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateIfUserHasNotAnyOrderHistory -->
+        <test-method is-config="true" signature="quitBrowser()[pri:0, instance:com.naveenautomation.TestPages.OrderHistoryPageTest@57db2b13]" started-at="2023-11-15T23:12:29Z" name="quitBrowser" finished-at="2023-11-15T23:12:29Z" duration-ms="139" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+      </class> <!-- com.naveenautomation.TestPages.OrderHistoryPageTest -->
+      <class name="com.naveenautomation.TestPages.ContactSuccessPageTest">
+        <test-method is-config="true" signature="launch()[pri:0, instance:com.naveenautomation.TestPages.ContactSuccessPageTest@387a8303]" started-at="2023-11-15T23:11:08Z" name="launch" finished-at="2023-11-15T23:11:12Z" duration-ms="3765" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method is-config="true" signature="loggerSetup()[pri:0, instance:com.naveenautomation.TestPages.ContactSuccessPageTest@387a8303]" started-at="2023-11-15T23:11:08Z" name="loggerSetup" finished-at="2023-11-15T23:11:08Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loggerSetup -->
+        <test-method signature="validateIfUserCanSuccessfullySubmitEnquiryOnContactUs()[pri:0, instance:com.naveenautomation.TestPages.ContactSuccessPageTest@387a8303]" started-at="2023-11-15T23:11:12Z" name="validateIfUserCanSuccessfullySubmitEnquiryOnContactUs" finished-at="2023-11-15T23:11:15Z" duration-ms="3367" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateIfUserCanSuccessfullySubmitEnquiryOnContactUs -->
+        <test-method is-config="true" signature="quitBrowser()[pri:0, instance:com.naveenautomation.TestPages.ContactSuccessPageTest@387a8303]" started-at="2023-11-15T23:11:15Z" name="quitBrowser" finished-at="2023-11-15T23:11:15Z" duration-ms="143" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+      </class> <!-- com.naveenautomation.TestPages.ContactSuccessPageTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

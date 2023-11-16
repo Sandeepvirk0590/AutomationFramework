@@ -1,0 +1,209 @@
+<html>
+<head>
+<title>TestNG:  Surefire test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Surefire test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>26/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Nov 15 18:09:24 EST 2023</td>
+</tr>
+<tr><td>Total time:</td><td>185 seconds (185401 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.naveenautomation.TestPages.LoginPageTest.validateEmailForForgottenPassword()'><b>validateEmailForForgottenPassword</b><br>Test class: com.naveenautomation.TestPages.LoginPageTest</td>
+<td></td>
+<td>1</td>
+<td>com.naveenautomation.TestPages.LoginPageTest@1500b2f3</td></tr>
+<tr>
+<td title='com.naveenautomation.TestPages.ContactPageTest.validateIfContactUsFailedWithLessEnquiryChar()'><b>validateIfContactUsFailedWithLessEnquiryChar</b><br>Test class: com.naveenautomation.TestPages.ContactPageTest</td>
+<td></td>
+<td>2</td>
+<td>com.naveenautomation.TestPages.ContactPageTest@69504ae9</td></tr>
+<tr>
+<td title='com.naveenautomation.TestPages.ContactPageTest.validateIfContactUsFailedWithNoEmailInput()'><b>validateIfContactUsFailedWithNoEmailInput</b><br>Test class: com.naveenautomation.TestPages.ContactPageTest</td>
+<td></td>
+<td>2</td>
+<td>com.naveenautomation.TestPages.ContactPageTest@69504ae9</td></tr>
+<tr>
+<td title='com.naveenautomation.TestPages.VoucherSuccessPageTest.validateIfRequiredFieldsAreEmptyThenUserCannotBuyVoucher()'><b>validateIfRequiredFieldsAreEmptyThenUserCannotBuyVoucher</b><br>Test class: com.naveenautomation.TestPages.VoucherSuccessPageTest</td>
+<td></td>
+<td>3</td>
+<td>com.naveenautomation.TestPages.VoucherSuccessPageTest@5276d6ee</td></tr>
+<tr>
+<td title='com.naveenautomation.TestPages.MacPageTest.validateIfUserCanAddMacToWishList()'><b>validateIfUserCanAddMacToWishList</b><br>Test class: com.naveenautomation.TestPages.MacPageTest</td>
+<td></td>
+<td>2</td>
+<td>com.naveenautomation.TestPages.MacPageTest@126253fd</td></tr>
+<tr>
+<td title='com.naveenautomation.TestPages.AddressPageTest.validateIfUserCanAddNewAddress()'><b>validateIfUserCanAddNewAddress</b><br>Test class: com.naveenautomation.TestPages.AddressPageTest</td>
+<td></td>
+<td>5</td>
+<td>com.naveenautomation.TestPages.AddressPageTest@47caedad</td></tr>
+<tr>
+<td title='com.naveenautomation.TestPages.SpecialPageTest.validateIfUserCanAddProductToCompareList()'><b>validateIfUserCanAddProductToCompareList</b><br>Test class: com.naveenautomation.TestPages.SpecialPageTest</td>
+<td></td>
+<td>2</td>
+<td>com.naveenautomation.TestPages.SpecialPageTest@5c86a017</td></tr>
+<tr>
+<td title='com.naveenautomation.TestPages.VoucherSuccessPageTest.validateIfUserCanBuyVoucher()'><b>validateIfUserCanBuyVoucher</b><br>Test class: com.naveenautomation.TestPages.VoucherSuccessPageTest</td>
+<td></td>
+<td>3</td>
+<td>com.naveenautomation.TestPages.VoucherSuccessPageTest@5276d6ee</td></tr>
+<tr>
+<td title='com.naveenautomation.TestPages.AccountPageTest.validateIfUserCanFillAffiliateEditForm()'><b>validateIfUserCanFillAffiliateEditForm</b><br>Test class: com.naveenautomation.TestPages.AccountPageTest</td>
+<td></td>
+<td>3</td>
+<td>com.naveenautomation.TestPages.AccountPageTest@5340477f</td></tr>
+<tr>
+<td title='com.naveenautomation.TestPages.ContactSuccessPageTest.validateIfUserCanSuccessfullySubmitEnquiryOnContactUs()'><b>validateIfUserCanSuccessfullySubmitEnquiryOnContactUs</b><br>Test class: com.naveenautomation.TestPages.ContactSuccessPageTest</td>
+<td></td>
+<td>3</td>
+<td>com.naveenautomation.TestPages.ContactSuccessPageTest@387a8303</td></tr>
+<tr>
+<td title='com.naveenautomation.TestPages.RewardPageTest.validateIfUserHasNoRewardPoints()'><b>validateIfUserHasNoRewardPoints</b><br>Test class: com.naveenautomation.TestPages.RewardPageTest</td>
+<td></td>
+<td>2</td>
+<td>com.naveenautomation.TestPages.RewardPageTest@475c9c31</td></tr>
+<tr>
+<td title='com.naveenautomation.TestPages.DownloadPageTest.validateIfUserHasNotAnyDownloads()'><b>validateIfUserHasNotAnyDownloads</b><br>Test class: com.naveenautomation.TestPages.DownloadPageTest</td>
+<td></td>
+<td>1</td>
+<td>com.naveenautomation.TestPages.DownloadPageTest@28cda624</td></tr>
+<tr>
+<td title='com.naveenautomation.TestPages.OrderHistoryPageTest.validateIfUserHasNotAnyOrderHistory()'><b>validateIfUserHasNotAnyOrderHistory</b><br>Test class: com.naveenautomation.TestPages.OrderHistoryPageTest</td>
+<td></td>
+<td>2</td>
+<td>com.naveenautomation.TestPages.OrderHistoryPageTest@57db2b13</td></tr>
+<tr>
+<td title='com.naveenautomation.TestPages.TransactionPageTest.validateIfUserHasNotAnyTransaction()'><b>validateIfUserHasNotAnyTransaction</b><br>Test class: com.naveenautomation.TestPages.TransactionPageTest</td>
+<td></td>
+<td>2</td>
+<td>com.naveenautomation.TestPages.TransactionPageTest@5c7bfdc1</td></tr>
+<tr>
+<td title='com.naveenautomation.TestPages.LoginPageTest.validateLoginWithMultipleCredentials()'><b>validateLoginWithMultipleCredentials</b><br>Test class: com.naveenautomation.TestPages.LoginPageTest<br>Parameters: mandy345@gmail.com, abcd@123</td>
+<td></td>
+<td>1</td>
+<td>com.naveenautomation.TestPages.LoginPageTest@1500b2f3</td></tr>
+<tr>
+<td title='com.naveenautomation.TestPages.LoginPageTest.validateLoginWithMultipleCredentials()'><b>validateLoginWithMultipleCredentials</b><br>Test class: com.naveenautomation.TestPages.LoginPageTest<br>Parameters: sarkaria001@gmail.com, singh@4567</td>
+<td></td>
+<td>1</td>
+<td>com.naveenautomation.TestPages.LoginPageTest@1500b2f3</td></tr>
+<tr>
+<td title='com.naveenautomation.TestPages.LoginPageTest.validateLoginWithMultipleCredentials()'><b>validateLoginWithMultipleCredentials</b><br>Test class: com.naveenautomation.TestPages.LoginPageTest<br>Parameters: sandeepkaur1@gmail.com, sandy</td>
+<td></td>
+<td>1</td>
+<td>com.naveenautomation.TestPages.LoginPageTest@1500b2f3</td></tr>
+<tr>
+<td title='com.naveenautomation.TestPages.LoginPageTest.validateLoginWithMultipleCredentials()'><b>validateLoginWithMultipleCredentials</b><br>Test class: com.naveenautomation.TestPages.LoginPageTest<br>Parameters: gurjapvirk@gmail.com, gurjap</td>
+<td></td>
+<td>1</td>
+<td>com.naveenautomation.TestPages.LoginPageTest@1500b2f3</td></tr>
+<tr>
+<td title='com.naveenautomation.TestPages.LoginPageTest.validateLoginWithMultipleCredentials()'><b>validateLoginWithMultipleCredentials</b><br>Test class: com.naveenautomation.TestPages.LoginPageTest<br>Parameters: suryaprakasha@live.in, goppa1234</td>
+<td></td>
+<td>1</td>
+<td>com.naveenautomation.TestPages.LoginPageTest@1500b2f3</td></tr>
+<tr>
+<td title='com.naveenautomation.TestPages.LogoutPageTest.validateLogoutFunctionality()'><b>validateLogoutFunctionality</b><br>Test class: com.naveenautomation.TestPages.LogoutPageTest</td>
+<td></td>
+<td>2</td>
+<td>com.naveenautomation.TestPages.LogoutPageTest@7eecb5b8</td></tr>
+<tr>
+<td title='com.naveenautomation.TestPages.AccountPageTest.validateNewspaperSubsciption()'><b>validateNewspaperSubsciption</b><br>Test class: com.naveenautomation.TestPages.AccountPageTest</td>
+<td></td>
+<td>3</td>
+<td>com.naveenautomation.TestPages.AccountPageTest@5340477f</td></tr>
+<tr>
+<td title='com.naveenautomation.TestPages.AccountPageTest.validateProductReturn()'><b>validateProductReturn</b><br>Test class: com.naveenautomation.TestPages.AccountPageTest</td>
+<td></td>
+<td>2</td>
+<td>com.naveenautomation.TestPages.AccountPageTest@5340477f</td></tr>
+<tr>
+<td title='com.naveenautomation.TestPages.LoginPageTest.validateUserCanLoginWithValidCredentials()'><b>validateUserCanLoginWithValidCredentials</b><br>Test class: com.naveenautomation.TestPages.LoginPageTest</td>
+<td></td>
+<td>1</td>
+<td>com.naveenautomation.TestPages.LoginPageTest@1500b2f3</td></tr>
+<tr>
+<td title='com.naveenautomation.TestPages.LoginPageTest.validateUserCanNotLoginWithInValidCredentials()'><b>validateUserCanNotLoginWithInValidCredentials</b><br>Test class: com.naveenautomation.TestPages.LoginPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.naveenautomation.TestPages.LoginPageTest@1500b2f3</td></tr>
+<tr>
+<td title='com.naveenautomation.TestPages.AccountPageTest.validateUserCanUpdatePersonalInfo()'><b>validateUserCanUpdatePersonalInfo</b><br>Test class: com.naveenautomation.TestPages.AccountPageTest</td>
+<td></td>
+<td>3</td>
+<td>com.naveenautomation.TestPages.AccountPageTest@5340477f</td></tr>
+<tr>
+<td title='com.naveenautomation.TestPages.AffiliateEditPageTest.validateUserFailedToEditAffilateWithNoPayeeInput()'><b>validateUserFailedToEditAffilateWithNoPayeeInput</b><br>Test class: com.naveenautomation.TestPages.AffiliateEditPageTest</td>
+<td></td>
+<td>3</td>
+<td>com.naveenautomation.TestPages.AffiliateEditPageTest@7139992f</td></tr>
+</table><p>
+</body>
+</html>

@@ -8,14 +8,30 @@
   </listeners>
   <test thread-count="5" name="Test(failed)">
     <classes>
+      <class name="com.naveenautomation.TestPages.WishlistTestPage">
+        <methods>
+          <include name="loggerSetup"/>
+          <include name="quitBrowser"/>
+          <include name="launch"/>
+          <include name="validateIfUserCanRemoveItemFromWishlistIfNotInStock"/>
+        </methods>
+      </class> <!-- com.naveenautomation.TestPages.WishlistTestPage -->
       <class name="com.naveenautomation.TestPages.LoginPageTest">
         <methods>
+          <include name="loggerSetup"/>
           <include name="validateLoginWithMultipleCredentials" invocation-numbers="0"/>
-          <include name="loggerSteup"/>
           <include name="quitBrowser"/>
           <include name="launch"/>
         </methods>
       </class> <!-- com.naveenautomation.TestPages.LoginPageTest -->
+      <class name="com.naveenautomation.TestPages.RecurringPaymentsPageTest">
+        <methods>
+          <include name="validateIfUserHasNoRecurringPayments"/>
+          <include name="launch"/>
+          <include name="loggerSetup"/>
+          <include name="quitBrowser"/>
+        </methods>
+      </class> <!-- com.naveenautomation.TestPages.RecurringPaymentsPageTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

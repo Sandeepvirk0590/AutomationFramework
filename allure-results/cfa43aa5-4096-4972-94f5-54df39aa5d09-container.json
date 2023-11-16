@@ -1,0 +1,1 @@
+{"uuid":"cfa43aa5-4096-4972-94f5-54df39aa5d09","name":"com.naveenautomation.TestPages.MacPageTest","children":["39915c91-1f48-4d46-a7c7-ef7c67c8beaf"],"befores":[{"name":"loggerSetup","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1699920169126,"stop":1699920169128}],"afters":[],"start":1699920040043,"stop":1699920260953}

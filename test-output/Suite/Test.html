@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>16/1/1</td>
+<td>Tests passed/Failed/Skipped:</td><td>20/3/3</td>
 </tr><tr>
-<td>Started on:</td><td>Mon Nov 06 14:53:37 EST 2023</td>
+<td>Started on:</td><td>Mon Nov 13 19:00:40 EST 2023</td>
 </tr>
-<tr><td>Total time:</td><td>198 seconds (198925 ms)</td>
+<tr><td>Total time:</td><td>220 seconds (220686 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -76,24 +76,25 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.naveenautomation.TestPages.LoginPageTest.validateLoginWithMultipleCredentials()'><b>validateLoginWithMultipleCredentials</b><br>Test class: com.naveenautomation.TestPages.LoginPageTest<br>Parameters: zenduo@email.com, zenduo@123</td>
-<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#content&gt;h2:first-of-type&quot;}
-  (Session info: headless chrome=118.0.5993.120)
+<td title='com.naveenautomation.TestPages.RecurringPaymentsPageTest.validateIfUserHasNoRecurringPayments()'><b>validateIfUserHasNoRecurringPayments</b><br>Test class: com.naveenautomation.TestPages.RecurringPaymentsPageTest</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//p[text()=&apos;No recurring payments found!&apos;]&quot;}
+  (Session info: chrome=119.0.6045.124)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;GURSANDEEP_VIRK&apos;, ip: &apos;172.20.10.2&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.7&apos;
-Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 118.0.5993.120, chrome: {chromedriverVersion: 118.0.5993.70 (e52f33f30b91..., userDataDir: C:\Users\gurja\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52146}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.20.10.2:4444/sessi..., se:cdpVersion: 118.0.5993.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 5a90d5e853375ca5c72a2c0b47a36596
-*** Element info: {Using=css selector, value=#content&gt;h2:first-of-type}
+System info: host: &apos;GURSANDEEP_VIRK&apos;, ip: &apos;10.0.0.61&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.7&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.124, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: C:\Users\gurja\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53725}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9eb95f620eba76fabe8f92447fa79427
+*** Element info: {Using=xpath, value=//p[text()=&apos;No recurring payments found!&apos;]}
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:420)
-	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:431)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
 	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
 	at jdk.proxy2/jdk.proxy2.$Proxy12.findElement(Unknown Source)
@@ -101,19 +102,19 @@ Session ID: 5a90d5e853375ca5c72a2c0b47a36596
 	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
 	at jdk.proxy2/jdk.proxy2.$Proxy16.getText(Unknown Source)
-	at com.naveenautomation.pages.AccountPage.getMyAccountText(AccountPage.java:51)
-	at com.naveenautomation.TestPages.LoginPageTest.validateLoginWithMultipleCredentials(LoginPageTest.java:53)
+	at com.naveenautomation.pages.RecurringPaymentsPage.getTextForNoRecurringPayments(RecurringPaymentsPage.java:19)
+	at com.naveenautomation.TestPages.RecurringPaymentsPageTest.validateIfUserHasNoRecurringPayments(RecurringPaymentsPageTest.java:29)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 35 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace204937701", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace204937701'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#content&gt;h2:first-of-type&quot;}
-  (Session info: headless chrome=118.0.5993.120)
+... Removed 35 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace121286266", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace121286266'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//p[text()=&apos;No recurring payments found!&apos;]&quot;}
+  (Session info: chrome=119.0.6045.124)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;GURSANDEEP_VIRK&apos;, ip: &apos;172.20.10.2&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.7&apos;
-Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 118.0.5993.120, chrome: {chromedriverVersion: 118.0.5993.70 (e52f33f30b91..., userDataDir: C:\Users\gurja\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52146}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.20.10.2:4444/sessi..., se:cdpVersion: 118.0.5993.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 5a90d5e853375ca5c72a2c0b47a36596
-*** Element info: {Using=css selector, value=#content&gt;h2:first-of-type}
+System info: host: &apos;GURSANDEEP_VIRK&apos;, ip: &apos;10.0.0.61&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.7&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.124, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: C:\Users\gurja\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53725}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9eb95f620eba76fabe8f92447fa79427
+*** Element info: {Using=xpath, value=//p[text()=&apos;No recurring payments found!&apos;]}
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -123,10 +124,11 @@ Session ID: 5a90d5e853375ca5c72a2c0b47a36596
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:420)
-	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:431)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
 	at jdk.internal.reflect.GeneratedMethodAccessor13.invoke(Unknown Source)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -137,8 +139,8 @@ Session ID: 5a90d5e853375ca5c72a2c0b47a36596
 	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
 	at jdk.proxy2/jdk.proxy2.$Proxy16.getText(Unknown Source)
-	at com.naveenautomation.pages.AccountPage.getMyAccountText(AccountPage.java:51)
-	at com.naveenautomation.TestPages.LoginPageTest.validateLoginWithMultipleCredentials(LoginPageTest.java:53)
+	at com.naveenautomation.pages.RecurringPaymentsPage.getTextForNoRecurringPayments(RecurringPaymentsPage.java:19)
+	at com.naveenautomation.TestPages.RecurringPaymentsPageTest.validateIfUserHasNoRecurringPayments(RecurringPaymentsPageTest.java:29)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -169,120 +171,69 @@ Session ID: 5a90d5e853375ca5c72a2c0b47a36596
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
 <td>11</td>
-<td>com.naveenautomation.TestPages.LoginPageTest@b2c5e07</td></tr>
-</table><p>
-<table width='100%' border='1' class='invocation-passed'>
-<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
-<tr><td><b>Test method</b></td>
-<td><b>Attribute(s)</b></td>
-<td width="30%"><b>Exception</b></td>
-<td width="10%"><b>Time (seconds)</b></td>
-<td><b>Instance</b></td>
-</tr>
+<td>com.naveenautomation.TestPages.RecurringPaymentsPageTest@21fd5faa</td></tr>
 <tr>
-<td title='com.naveenautomation.TestPages.MacPageTest.validateIfUserCanAddMacToWishList()'><b>validateIfUserCanAddMacToWishList</b><br>Test class: com.naveenautomation.TestPages.MacPageTest</td>
-<td></td>
-<td>3</td>
-<td>com.naveenautomation.TestPages.MacPageTest@3c7c886c</td></tr>
-<tr>
-<td title='com.naveenautomation.TestPages.LoginPageTest.validateLoginWithMultipleCredentials()'><b>validateLoginWithMultipleCredentials</b><br>Test class: com.naveenautomation.TestPages.LoginPageTest<br>Parameters: sandeepkaur1@gmail.com, sandy</td>
-<td></td>
-<td>1</td>
-<td>com.naveenautomation.TestPages.LoginPageTest@b2c5e07</td></tr>
-<tr>
-<td title='com.naveenautomation.TestPages.LoginPageTest.validateUserCanNotLoginWithInValidCredentials()'><b>validateUserCanNotLoginWithInValidCredentials</b><br>Test class: com.naveenautomation.TestPages.LoginPageTest</td>
-<td></td>
-<td>1</td>
-<td>com.naveenautomation.TestPages.LoginPageTest@b2c5e07</td></tr>
-<tr>
-<td title='com.naveenautomation.TestPages.AccountPageTest.validateNewspaperSubsciption()'><b>validateNewspaperSubsciption</b><br>Test class: com.naveenautomation.TestPages.AccountPageTest</td>
-<td></td>
-<td>6</td>
-<td>com.naveenautomation.TestPages.AccountPageTest@13330ac6</td></tr>
-<tr>
-<td title='com.naveenautomation.TestPages.VoucherSuccessPageTest.validateIfUserCanBuyVoucher()'><b>validateIfUserCanBuyVoucher</b><br>Test class: com.naveenautomation.TestPages.VoucherSuccessPageTest</td>
-<td></td>
-<td>4</td>
-<td>com.naveenautomation.TestPages.VoucherSuccessPageTest@55493582</td></tr>
-<tr>
-<td title='com.naveenautomation.TestPages.LoginPageTest.validateEmailForForgottenPassword()'><b>validateEmailForForgottenPassword</b><br>Test class: com.naveenautomation.TestPages.LoginPageTest</td>
-<td></td>
-<td>1</td>
-<td>com.naveenautomation.TestPages.LoginPageTest@b2c5e07</td></tr>
-<tr>
-<td title='com.naveenautomation.TestPages.DownloadPageTest.validateIfUserHasNotAnyDownloads()'><b>validateIfUserHasNotAnyDownloads</b><br>Test class: com.naveenautomation.TestPages.DownloadPageTest</td>
-<td></td>
+<td title='com.naveenautomation.TestPages.WishlistTestPage.validateIfUserCanRemoveItemFromWishlistIfNotInStock()'><b>validateIfUserCanRemoveItemFromWishlistIfNotInStock</b><br>Test class: com.naveenautomation.TestPages.WishlistTestPage</td>
+<td><div><pre>java.lang.AssertionError: Failed to remove item from wishlist expected [Success: You have modified your wish list! ] but found [Success: You have modified your wish list!
+×]
+	at com.naveenautomation.TestPages.WishlistTestPage.validateIfUserCanRemoveItemFromWishlistIfNotInStock(WishlistTestPage.java:31)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1421039625", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1421039625'><pre>java.lang.AssertionError: Failed to remove item from wishlist expected [Success: You have modified your wish list! ] but found [Success: You have modified your wish list!
+×]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at com.naveenautomation.TestPages.WishlistTestPage.validateIfUserCanRemoveItemFromWishlistIfNotInStock(WishlistTestPage.java:31)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:248)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:62)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:848)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+	at org.testng.TestNG.runSuites(TestNG.java:1114)
+	at org.testng.TestNG.run(TestNG.java:1082)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
 <td>2</td>
-<td>com.naveenautomation.TestPages.DownloadPageTest@5812f68b</td></tr>
-<tr>
-<td title='com.naveenautomation.TestPages.LoginPageTest.validateLoginWithMultipleCredentials()'><b>validateLoginWithMultipleCredentials</b><br>Test class: com.naveenautomation.TestPages.LoginPageTest<br>Parameters: suryaprakasha@live.in, goppa1234</td>
-<td></td>
-<td>1</td>
-<td>com.naveenautomation.TestPages.LoginPageTest@b2c5e07</td></tr>
-<tr>
-<td title='com.naveenautomation.TestPages.LogoutPageTest.validateLogoutFunctionality()'><b>validateLogoutFunctionality</b><br>Test class: com.naveenautomation.TestPages.LogoutPageTest</td>
-<td></td>
-<td>5</td>
-<td>com.naveenautomation.TestPages.LogoutPageTest@29ca3d04</td></tr>
-<tr>
-<td title='com.naveenautomation.TestPages.AccountPageTest.validateUserCanUpdatePersonalInfo()'><b>validateUserCanUpdatePersonalInfo</b><br>Test class: com.naveenautomation.TestPages.AccountPageTest</td>
-<td></td>
-<td>3</td>
-<td>com.naveenautomation.TestPages.AccountPageTest@13330ac6</td></tr>
-<tr>
-<td title='com.naveenautomation.TestPages.LoginPageTest.validateLoginWithMultipleCredentials()'><b>validateLoginWithMultipleCredentials</b><br>Test class: com.naveenautomation.TestPages.LoginPageTest<br>Parameters: TonyStark@gmail.com, Tony12345</td>
-<td></td>
-<td>1</td>
-<td>com.naveenautomation.TestPages.LoginPageTest@b2c5e07</td></tr>
-<tr>
-<td title='com.naveenautomation.TestPages.AddressPageTest.validateIfUserCanAddNewAddress()'><b>validateIfUserCanAddNewAddress</b><br>Test class: com.naveenautomation.TestPages.AddressPageTest</td>
-<td></td>
-<td>7</td>
-<td>com.naveenautomation.TestPages.AddressPageTest@5bf8fa12</td></tr>
-<tr>
-<td title='com.naveenautomation.TestPages.LoginPageTest.validateUserCanLoginWithValidCredentials()'><b>validateUserCanLoginWithValidCredentials</b><br>Test class: com.naveenautomation.TestPages.LoginPageTest</td>
-<td></td>
-<td>1</td>
-<td>com.naveenautomation.TestPages.LoginPageTest@b2c5e07</td></tr>
-<tr>
-<td title='com.naveenautomation.TestPages.AccountPageTest.validateProductReturn()'><b>validateProductReturn</b><br>Test class: com.naveenautomation.TestPages.AccountPageTest</td>
-<td></td>
-<td>6</td>
-<td>com.naveenautomation.TestPages.AccountPageTest@13330ac6</td></tr>
-<tr>
-<td title='com.naveenautomation.TestPages.LoginPageTest.validateLoginWithMultipleCredentials()'><b>validateLoginWithMultipleCredentials</b><br>Test class: com.naveenautomation.TestPages.LoginPageTest<br>Parameters: andreas@email.com, qwerty</td>
-<td></td>
-<td>1</td>
-<td>com.naveenautomation.TestPages.LoginPageTest@b2c5e07</td></tr>
-<tr>
-<td title='com.naveenautomation.TestPages.SpecialPageTest.validateIfUserCanAddProductToCompareList()'><b>validateIfUserCanAddProductToCompareList</b><br>Test class: com.naveenautomation.TestPages.SpecialPageTest</td>
-<td></td>
-<td>3</td>
-<td>com.naveenautomation.TestPages.SpecialPageTest@4426bff1</td></tr>
-</table><p>
-<table width='100%' border='1' class='invocation-skipped'>
-<tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
-<tr><td><b>Test method</b></td>
-<td><b>Attribute(s)</b></td>
-<td width="30%"><b>Exception</b></td>
-<td width="10%"><b>Time (seconds)</b></td>
-<td><b>Instance</b></td>
-</tr>
+<td>com.naveenautomation.TestPages.WishlistTestPage@3fc9504b</td></tr>
 <tr>
 <td title='com.naveenautomation.TestPages.LoginPageTest.validateLoginWithMultipleCredentials()'><b>validateLoginWithMultipleCredentials</b><br>Test class: com.naveenautomation.TestPages.LoginPageTest<br>Parameters: zenduo@email.com, zenduo@123</td>
 <td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#content&gt;h2:first-of-type&quot;}
-  (Session info: headless chrome=118.0.5993.120)
+  (Session info: chrome=119.0.6045.124)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;GURSANDEEP_VIRK&apos;, ip: &apos;172.20.10.2&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.7&apos;
-Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 118.0.5993.120, chrome: {chromedriverVersion: 118.0.5993.70 (e52f33f30b91..., userDataDir: C:\Users\gurja\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52117}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.20.10.2:4444/sessi..., se:cdpVersion: 118.0.5993.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 2af182d5a893b2d3d663b5cb8548ba7b
+System info: host: &apos;GURSANDEEP_VIRK&apos;, ip: &apos;10.0.0.61&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.7&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.124, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: C:\Users\gurja\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53493}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 47b3089888b8cd6c2a4306701f999220
 *** Element info: {Using=css selector, value=#content&gt;h2:first-of-type}
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:420)
@@ -294,18 +245,18 @@ Session ID: 2af182d5a893b2d3d663b5cb8548ba7b
 	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
 	at jdk.proxy2/jdk.proxy2.$Proxy16.getText(Unknown Source)
-	at com.naveenautomation.pages.AccountPage.getMyAccountText(AccountPage.java:51)
+	at com.naveenautomation.pages.AccountPage.getMyAccountText(AccountPage.java:50)
 	at com.naveenautomation.TestPages.LoginPageTest.validateLoginWithMultipleCredentials(LoginPageTest.java:53)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 35 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace848484634", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace848484634'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#content&gt;h2:first-of-type&quot;}
-  (Session info: headless chrome=118.0.5993.120)
+... Removed 35 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace883592033", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace883592033'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#content&gt;h2:first-of-type&quot;}
+  (Session info: chrome=119.0.6045.124)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;GURSANDEEP_VIRK&apos;, ip: &apos;172.20.10.2&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.7&apos;
-Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 118.0.5993.120, chrome: {chromedriverVersion: 118.0.5993.70 (e52f33f30b91..., userDataDir: C:\Users\gurja\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52117}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.20.10.2:4444/sessi..., se:cdpVersion: 118.0.5993.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 2af182d5a893b2d3d663b5cb8548ba7b
+System info: host: &apos;GURSANDEEP_VIRK&apos;, ip: &apos;10.0.0.61&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.7&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.124, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: C:\Users\gurja\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53493}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 47b3089888b8cd6c2a4306701f999220
 *** Element info: {Using=css selector, value=#content&gt;h2:first-of-type}
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
@@ -316,6 +267,7 @@ Session ID: 2af182d5a893b2d3d663b5cb8548ba7b
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:420)
@@ -330,7 +282,222 @@ Session ID: 2af182d5a893b2d3d663b5cb8548ba7b
 	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
 	at jdk.proxy2/jdk.proxy2.$Proxy16.getText(Unknown Source)
-	at com.naveenautomation.pages.AccountPage.getMyAccountText(AccountPage.java:51)
+	at com.naveenautomation.pages.AccountPage.getMyAccountText(AccountPage.java:50)
+	at com.naveenautomation.TestPages.LoginPageTest.validateLoginWithMultipleCredentials(LoginPageTest.java:53)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:248)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:62)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:848)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+	at org.testng.TestNG.runSuites(TestNG.java:1114)
+	at org.testng.TestNG.run(TestNG.java:1082)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>10</td>
+<td>com.naveenautomation.TestPages.LoginPageTest@52c3cb31</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.naveenautomation.TestPages.MacPageTest.validateIfUserCanAddMacToWishList()'><b>validateIfUserCanAddMacToWishList</b><br>Test class: com.naveenautomation.TestPages.MacPageTest</td>
+<td></td>
+<td>2</td>
+<td>com.naveenautomation.TestPages.MacPageTest@53941c2f</td></tr>
+<tr>
+<td title='com.naveenautomation.TestPages.AccountPageTest.validateNewspaperSubsciption()'><b>validateNewspaperSubsciption</b><br>Test class: com.naveenautomation.TestPages.AccountPageTest</td>
+<td></td>
+<td>2</td>
+<td>com.naveenautomation.TestPages.AccountPageTest@b2c5e07</td></tr>
+<tr>
+<td title='com.naveenautomation.TestPages.LoginPageTest.validateUserCanLoginWithValidCredentials()'><b>validateUserCanLoginWithValidCredentials</b><br>Test class: com.naveenautomation.TestPages.LoginPageTest</td>
+<td></td>
+<td>1</td>
+<td>com.naveenautomation.TestPages.LoginPageTest@52c3cb31</td></tr>
+<tr>
+<td title='com.naveenautomation.TestPages.TransactionPageTest.validateIfUserHasNotAnyTransaction()'><b>validateIfUserHasNotAnyTransaction</b><br>Test class: com.naveenautomation.TestPages.TransactionPageTest</td>
+<td></td>
+<td>1</td>
+<td>com.naveenautomation.TestPages.TransactionPageTest@65a15628</td></tr>
+<tr>
+<td title='com.naveenautomation.TestPages.SpecialPageTest.validateIfUserCanAddProductToCompareList()'><b>validateIfUserCanAddProductToCompareList</b><br>Test class: com.naveenautomation.TestPages.SpecialPageTest</td>
+<td></td>
+<td>2</td>
+<td>com.naveenautomation.TestPages.SpecialPageTest@5460cf3a</td></tr>
+<tr>
+<td title='com.naveenautomation.TestPages.LoginPageTest.validateLoginWithMultipleCredentials()'><b>validateLoginWithMultipleCredentials</b><br>Test class: com.naveenautomation.TestPages.LoginPageTest<br>Parameters: suryaprakasha@live.in, goppa1234</td>
+<td></td>
+<td>1</td>
+<td>com.naveenautomation.TestPages.LoginPageTest@52c3cb31</td></tr>
+<tr>
+<td title='com.naveenautomation.TestPages.OrderHistoryPageTest.validateIfUserHasNotAnyOrderHistory()'><b>validateIfUserHasNotAnyOrderHistory</b><br>Test class: com.naveenautomation.TestPages.OrderHistoryPageTest</td>
+<td></td>
+<td>1</td>
+<td>com.naveenautomation.TestPages.OrderHistoryPageTest@6dab9b6d</td></tr>
+<tr>
+<td title='com.naveenautomation.TestPages.RewardPageTest.validateIfUserHasNoRewardPoints()'><b>validateIfUserHasNoRewardPoints</b><br>Test class: com.naveenautomation.TestPages.RewardPageTest</td>
+<td></td>
+<td>1</td>
+<td>com.naveenautomation.TestPages.RewardPageTest@2766ca9d</td></tr>
+<tr>
+<td title='com.naveenautomation.TestPages.LoginPageTest.validateUserCanNotLoginWithInValidCredentials()'><b>validateUserCanNotLoginWithInValidCredentials</b><br>Test class: com.naveenautomation.TestPages.LoginPageTest</td>
+<td></td>
+<td>1</td>
+<td>com.naveenautomation.TestPages.LoginPageTest@52c3cb31</td></tr>
+<tr>
+<td title='com.naveenautomation.TestPages.VoucherSuccessPageTest.validateIfRequiredFieldsAreEmptyThenUserCannotBuyVoucher()'><b>validateIfRequiredFieldsAreEmptyThenUserCannotBuyVoucher</b><br>Test class: com.naveenautomation.TestPages.VoucherSuccessPageTest</td>
+<td></td>
+<td>2</td>
+<td>com.naveenautomation.TestPages.VoucherSuccessPageTest@2e6a5539</td></tr>
+<tr>
+<td title='com.naveenautomation.TestPages.VoucherSuccessPageTest.validateIfUserCanBuyVoucher()'><b>validateIfUserCanBuyVoucher</b><br>Test class: com.naveenautomation.TestPages.VoucherSuccessPageTest</td>
+<td></td>
+<td>2</td>
+<td>com.naveenautomation.TestPages.VoucherSuccessPageTest@2e6a5539</td></tr>
+<tr>
+<td title='com.naveenautomation.TestPages.AccountPageTest.validateUserCanUpdatePersonalInfo()'><b>validateUserCanUpdatePersonalInfo</b><br>Test class: com.naveenautomation.TestPages.AccountPageTest</td>
+<td></td>
+<td>2</td>
+<td>com.naveenautomation.TestPages.AccountPageTest@b2c5e07</td></tr>
+<tr>
+<td title='com.naveenautomation.TestPages.LoginPageTest.validateEmailForForgottenPassword()'><b>validateEmailForForgottenPassword</b><br>Test class: com.naveenautomation.TestPages.LoginPageTest</td>
+<td></td>
+<td>1</td>
+<td>com.naveenautomation.TestPages.LoginPageTest@52c3cb31</td></tr>
+<tr>
+<td title='com.naveenautomation.TestPages.DownloadPageTest.validateIfUserHasNotAnyDownloads()'><b>validateIfUserHasNotAnyDownloads</b><br>Test class: com.naveenautomation.TestPages.DownloadPageTest</td>
+<td></td>
+<td>1</td>
+<td>com.naveenautomation.TestPages.DownloadPageTest@19e4fcac</td></tr>
+<tr>
+<td title='com.naveenautomation.TestPages.LoginPageTest.validateLoginWithMultipleCredentials()'><b>validateLoginWithMultipleCredentials</b><br>Test class: com.naveenautomation.TestPages.LoginPageTest<br>Parameters: andreas@email.com, qwerty</td>
+<td></td>
+<td>1</td>
+<td>com.naveenautomation.TestPages.LoginPageTest@52c3cb31</td></tr>
+<tr>
+<td title='com.naveenautomation.TestPages.AccountPageTest.validateProductReturn()'><b>validateProductReturn</b><br>Test class: com.naveenautomation.TestPages.AccountPageTest</td>
+<td></td>
+<td>2</td>
+<td>com.naveenautomation.TestPages.AccountPageTest@b2c5e07</td></tr>
+<tr>
+<td title='com.naveenautomation.TestPages.AddressPageTest.validateIfUserCanAddNewAddress()'><b>validateIfUserCanAddNewAddress</b><br>Test class: com.naveenautomation.TestPages.AddressPageTest</td>
+<td></td>
+<td>4</td>
+<td>com.naveenautomation.TestPages.AddressPageTest@34158c08</td></tr>
+<tr>
+<td title='com.naveenautomation.TestPages.LoginPageTest.validateLoginWithMultipleCredentials()'><b>validateLoginWithMultipleCredentials</b><br>Test class: com.naveenautomation.TestPages.LoginPageTest<br>Parameters: TonyStark@gmail.com, Tony12345</td>
+<td></td>
+<td>1</td>
+<td>com.naveenautomation.TestPages.LoginPageTest@52c3cb31</td></tr>
+<tr>
+<td title='com.naveenautomation.TestPages.LoginPageTest.validateLoginWithMultipleCredentials()'><b>validateLoginWithMultipleCredentials</b><br>Test class: com.naveenautomation.TestPages.LoginPageTest<br>Parameters: sandeepkaur1@gmail.com, sandy</td>
+<td></td>
+<td>1</td>
+<td>com.naveenautomation.TestPages.LoginPageTest@52c3cb31</td></tr>
+<tr>
+<td title='com.naveenautomation.TestPages.LogoutPageTest.validateLogoutFunctionality()'><b>validateLogoutFunctionality</b><br>Test class: com.naveenautomation.TestPages.LogoutPageTest</td>
+<td></td>
+<td>2</td>
+<td>com.naveenautomation.TestPages.LogoutPageTest@4b79ac84</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-skipped'>
+<tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.naveenautomation.TestPages.LoginPageTest.validateLoginWithMultipleCredentials()'><b>validateLoginWithMultipleCredentials</b><br>Test class: com.naveenautomation.TestPages.LoginPageTest<br>Parameters: zenduo@email.com, zenduo@123</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#content&gt;h2:first-of-type&quot;}
+  (Session info: chrome=119.0.6045.124)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;GURSANDEEP_VIRK&apos;, ip: &apos;10.0.0.61&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.7&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.124, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: C:\Users\gurja\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53474}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e14c75320949d53c0c3d5a40c222ff34
+*** Element info: {Using=css selector, value=#content&gt;h2:first-of-type}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:420)
+	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:431)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at jdk.proxy2/jdk.proxy2.$Proxy12.findElement(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:194)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy16.getText(Unknown Source)
+	at com.naveenautomation.pages.AccountPage.getMyAccountText(AccountPage.java:50)
+	at com.naveenautomation.TestPages.LoginPageTest.validateLoginWithMultipleCredentials(LoginPageTest.java:53)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 35 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace322612414", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace322612414'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#content&gt;h2:first-of-type&quot;}
+  (Session info: chrome=119.0.6045.124)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;GURSANDEEP_VIRK&apos;, ip: &apos;10.0.0.61&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.7&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.124, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: C:\Users\gurja\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53474}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e14c75320949d53c0c3d5a40c222ff34
+*** Element info: {Using=css selector, value=#content&gt;h2:first-of-type}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:420)
+	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:431)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at jdk.internal.reflect.GeneratedMethodAccessor13.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at jdk.proxy2/jdk.proxy2.$Proxy12.findElement(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:194)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy16.getText(Unknown Source)
+	at com.naveenautomation.pages.AccountPage.getMyAccountText(AccountPage.java:50)
 	at com.naveenautomation.TestPages.LoginPageTest.validateLoginWithMultipleCredentials(LoginPageTest.java:53)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
@@ -362,7 +529,150 @@ Session ID: 2af182d5a893b2d3d663b5cb8548ba7b
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
 <td>11</td>
-<td>com.naveenautomation.TestPages.LoginPageTest@b2c5e07</td></tr>
+<td>com.naveenautomation.TestPages.LoginPageTest@52c3cb31</td></tr>
+<tr>
+<td title='com.naveenautomation.TestPages.WishlistTestPage.validateIfUserCanRemoveItemFromWishlistIfNotInStock()'><b>validateIfUserCanRemoveItemFromWishlistIfNotInStock</b><br>Test class: com.naveenautomation.TestPages.WishlistTestPage</td>
+<td><div><pre>java.lang.AssertionError: Failed to remove item from wishlist expected [Success: You have modified your wish list! ] but found [Success: You have modified your wish list!
+×]
+	at com.naveenautomation.TestPages.WishlistTestPage.validateIfUserCanRemoveItemFromWishlistIfNotInStock(WishlistTestPage.java:31)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2055593048", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2055593048'><pre>java.lang.AssertionError: Failed to remove item from wishlist expected [Success: You have modified your wish list! ] but found [Success: You have modified your wish list!
+×]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at com.naveenautomation.TestPages.WishlistTestPage.validateIfUserCanRemoveItemFromWishlistIfNotInStock(WishlistTestPage.java:31)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:848)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+	at org.testng.TestNG.runSuites(TestNG.java:1114)
+	at org.testng.TestNG.run(TestNG.java:1082)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>2</td>
+<td>com.naveenautomation.TestPages.WishlistTestPage@3fc9504b</td></tr>
+<tr>
+<td title='com.naveenautomation.TestPages.RecurringPaymentsPageTest.validateIfUserHasNoRecurringPayments()'><b>validateIfUserHasNoRecurringPayments</b><br>Test class: com.naveenautomation.TestPages.RecurringPaymentsPageTest</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//p[text()=&apos;No recurring payments found!&apos;]&quot;}
+  (Session info: chrome=119.0.6045.124)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;GURSANDEEP_VIRK&apos;, ip: &apos;10.0.0.61&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.7&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.124, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: C:\Users\gurja\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53706}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e56a45c9d34e2397d04b1c07f88b8a0e
+*** Element info: {Using=xpath, value=//p[text()=&apos;No recurring payments found!&apos;]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at jdk.proxy2/jdk.proxy2.$Proxy12.findElement(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:194)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy16.getText(Unknown Source)
+	at com.naveenautomation.pages.RecurringPaymentsPage.getTextForNoRecurringPayments(RecurringPaymentsPage.java:19)
+	at com.naveenautomation.TestPages.RecurringPaymentsPageTest.validateIfUserHasNoRecurringPayments(RecurringPaymentsPageTest.java:29)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 35 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1208288923", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1208288923'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//p[text()=&apos;No recurring payments found!&apos;]&quot;}
+  (Session info: chrome=119.0.6045.124)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;GURSANDEEP_VIRK&apos;, ip: &apos;10.0.0.61&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.7&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.124, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: C:\Users\gurja\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53706}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e56a45c9d34e2397d04b1c07f88b8a0e
+*** Element info: {Using=xpath, value=//p[text()=&apos;No recurring payments found!&apos;]}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at jdk.internal.reflect.GeneratedMethodAccessor13.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at jdk.proxy2/jdk.proxy2.$Proxy12.findElement(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:194)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy16.getText(Unknown Source)
+	at com.naveenautomation.pages.RecurringPaymentsPage.getTextForNoRecurringPayments(RecurringPaymentsPage.java:19)
+	at com.naveenautomation.TestPages.RecurringPaymentsPageTest.validateIfUserHasNoRecurringPayments(RecurringPaymentsPageTest.java:29)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:848)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+	at org.testng.TestNG.runSuites(TestNG.java:1114)
+	at org.testng.TestNG.run(TestNG.java:1082)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>11</td>
+<td>com.naveenautomation.TestPages.RecurringPaymentsPageTest@21fd5faa</td></tr>
 </table><p>
 </body>
 </html>

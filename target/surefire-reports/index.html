@@ -1,0 +1,1181 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Surefire_suite" class="navigator-link">
+              <span class="suite-name border-passed">Surefire suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Surefire_suite" class="navigator-link ">
+                    <span>[unset file name]</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Surefire_suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Surefire_suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Surefire_suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Surefire_suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Surefire_suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Surefire_suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">26 methods,   26 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Surefire_suite" class="hide-methods passed suite-Surefire_suite"> (hide)</a> <!-- hide-methods passed suite-Surefire_suite -->
+                      <a href="#" panel-name="suite-Surefire_suite" class="show-methods passed suite-Surefire_suite"> (show)</a> <!-- show-methods passed suite-Surefire_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Surefire_suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.naveenautomation.TestPages.LoginPageTest" class="method navigator-link" hash-for-method="validateEmailForForgottenPassword">validateEmailForForgottenPassword</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.naveenautomation.TestPages.ContactPageTest" class="method navigator-link" hash-for-method="validateIfContactUsFailedWithLessEnquiryChar">validateIfContactUsFailedWithLessEnquiryChar</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.naveenautomation.TestPages.ContactPageTest" class="method navigator-link" hash-for-method="validateIfContactUsFailedWithNoEmailInput">validateIfContactUsFailedWithNoEmailInput</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.naveenautomation.TestPages.VoucherSuccessPageTest" class="method navigator-link" hash-for-method="validateIfRequiredFieldsAreEmptyThenUserCannotBuyVoucher">validateIfRequiredFieldsAreEmptyThenUserCannotBuyVoucher</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.naveenautomation.TestPages.MacPageTest" class="method navigator-link" hash-for-method="validateIfUserCanAddMacToWishList">validateIfUserCanAddMacToWishList</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.naveenautomation.TestPages.AddressPageTest" class="method navigator-link" hash-for-method="validateIfUserCanAddNewAddress">validateIfUserCanAddNewAddress</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.naveenautomation.TestPages.SpecialPageTest" class="method navigator-link" hash-for-method="validateIfUserCanAddProductToCompareList">validateIfUserCanAddProductToCompareList</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.naveenautomation.TestPages.VoucherSuccessPageTest" class="method navigator-link" hash-for-method="validateIfUserCanBuyVoucher">validateIfUserCanBuyVoucher</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.naveenautomation.TestPages.AccountPageTest" class="method navigator-link" hash-for-method="validateIfUserCanFillAffiliateEditForm">validateIfUserCanFillAffiliateEditForm</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.naveenautomation.TestPages.ContactSuccessPageTest" class="method navigator-link" hash-for-method="validateIfUserCanSuccessfullySubmitEnquiryOnContactUs">validateIfUserCanSuccessfullySubmitEnquiryOnContactUs</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.naveenautomation.TestPages.RewardPageTest" class="method navigator-link" hash-for-method="validateIfUserHasNoRewardPoints">validateIfUserHasNoRewardPoints</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.naveenautomation.TestPages.DownloadPageTest" class="method navigator-link" hash-for-method="validateIfUserHasNotAnyDownloads">validateIfUserHasNotAnyDownloads</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.naveenautomation.TestPages.OrderHistoryPageTest" class="method navigator-link" hash-for-method="validateIfUserHasNotAnyOrderHistory">validateIfUserHasNotAnyOrderHistory</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.naveenautomation.TestPages.TransactionPageTest" class="method navigator-link" hash-for-method="validateIfUserHasNotAnyTransaction">validateIfUserHasNotAnyTransaction</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.naveenautomation.TestPages.LoginPageTest" class="method navigator-link" hash-for-method="validateLoginWithMultipleCredentials(gurjapvirk@gmail.com, gurjap)">validateLoginWithMultipleCredentials(gurjapvirk@gmail.com, gurjap)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.naveenautomation.TestPages.LoginPageTest" class="method navigator-link" hash-for-method="validateLoginWithMultipleCredentials(sandeepkaur1@gmail.com, sandy)">validateLoginWithMultipleCredentials(sandeepkaur1@gmail.com, sandy)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.naveenautomation.TestPages.LoginPageTest" class="method navigator-link" hash-for-method="validateLoginWithMultipleCredentials(suryaprakasha@live.in, goppa1234)">validateLoginWithMultipleCredentials(suryaprakasha@live.in, goppa1234)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.naveenautomation.TestPages.LoginPageTest" class="method navigator-link" hash-for-method="validateLoginWithMultipleCredentials(sarkaria001@gmail.com, singh@4567)">validateLoginWithMultipleCredentials(sarkaria001@gmail.com, singh@4567)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.naveenautomation.TestPages.LoginPageTest" class="method navigator-link" hash-for-method="validateLoginWithMultipleCredentials(mandy345@gmail.com, abcd@123)">validateLoginWithMultipleCredentials(mandy345@gmail.com, abcd@123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.naveenautomation.TestPages.LogoutPageTest" class="method navigator-link" hash-for-method="validateLogoutFunctionality">validateLogoutFunctionality</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.naveenautomation.TestPages.AccountPageTest" class="method navigator-link" hash-for-method="validateNewspaperSubsciption">validateNewspaperSubsciption</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.naveenautomation.TestPages.AccountPageTest" class="method navigator-link" hash-for-method="validateProductReturn">validateProductReturn</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.naveenautomation.TestPages.LoginPageTest" class="method navigator-link" hash-for-method="validateUserCanLoginWithValidCredentials">validateUserCanLoginWithValidCredentials</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.naveenautomation.TestPages.LoginPageTest" class="method navigator-link" hash-for-method="validateUserCanNotLoginWithInValidCredentials">validateUserCanNotLoginWithInValidCredentials</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.naveenautomation.TestPages.AccountPageTest" class="method navigator-link" hash-for-method="validateUserCanUpdatePersonalInfo">validateUserCanUpdatePersonalInfo</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.naveenautomation.TestPages.AffiliateEditPageTest" class="method navigator-link" hash-for-method="validateUserFailedToEditAffilateWithNoPayeeInput">validateUserFailedToEditAffilateWithNoPayeeInput</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Surefire_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Surefire_suite" class="panel Surefire_suite">
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.naveenautomation.TestPages.LogoutPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateLogoutFunctionality">
+                  </a> <!-- validateLogoutFunctionality -->
+                  <span class="method-name">validateLogoutFunctionality</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.naveenautomation.TestPages.ContactPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateIfContactUsFailedWithLessEnquiryChar">
+                  </a> <!-- validateIfContactUsFailedWithLessEnquiryChar -->
+                  <span class="method-name">validateIfContactUsFailedWithLessEnquiryChar</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateIfContactUsFailedWithNoEmailInput">
+                  </a> <!-- validateIfContactUsFailedWithNoEmailInput -->
+                  <span class="method-name">validateIfContactUsFailedWithNoEmailInput</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.naveenautomation.TestPages.AddressPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateIfUserCanAddNewAddress">
+                  </a> <!-- validateIfUserCanAddNewAddress -->
+                  <span class="method-name">validateIfUserCanAddNewAddress</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.naveenautomation.TestPages.SpecialPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateIfUserCanAddProductToCompareList">
+                  </a> <!-- validateIfUserCanAddProductToCompareList -->
+                  <span class="method-name">validateIfUserCanAddProductToCompareList</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.naveenautomation.TestPages.RewardPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateIfUserHasNoRewardPoints">
+                  </a> <!-- validateIfUserHasNoRewardPoints -->
+                  <span class="method-name">validateIfUserHasNoRewardPoints</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.naveenautomation.TestPages.LoginPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateEmailForForgottenPassword">
+                  </a> <!-- validateEmailForForgottenPassword -->
+                  <span class="method-name">validateEmailForForgottenPassword</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateLoginWithMultipleCredentials(gurjapvirk@gmail.com, gurjap)">
+                  </a> <!-- validateLoginWithMultipleCredentials(gurjapvirk@gmail.com, gurjap) -->
+                  <span class="method-name">validateLoginWithMultipleCredentials</span>
+                  <span class="parameters">(gurjapvirk@gmail.com, gurjap)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateLoginWithMultipleCredentials(sandeepkaur1@gmail.com, sandy)">
+                  </a> <!-- validateLoginWithMultipleCredentials(sandeepkaur1@gmail.com, sandy) -->
+                  <span class="method-name">validateLoginWithMultipleCredentials</span>
+                  <span class="parameters">(sandeepkaur1@gmail.com, sandy)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateLoginWithMultipleCredentials(suryaprakasha@live.in, goppa1234)">
+                  </a> <!-- validateLoginWithMultipleCredentials(suryaprakasha@live.in, goppa1234) -->
+                  <span class="method-name">validateLoginWithMultipleCredentials</span>
+                  <span class="parameters">(suryaprakasha@live.in, goppa1234)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateLoginWithMultipleCredentials(sarkaria001@gmail.com, singh@4567)">
+                  </a> <!-- validateLoginWithMultipleCredentials(sarkaria001@gmail.com, singh@4567) -->
+                  <span class="method-name">validateLoginWithMultipleCredentials</span>
+                  <span class="parameters">(sarkaria001@gmail.com, singh@4567)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateLoginWithMultipleCredentials(mandy345@gmail.com, abcd@123)">
+                  </a> <!-- validateLoginWithMultipleCredentials(mandy345@gmail.com, abcd@123) -->
+                  <span class="method-name">validateLoginWithMultipleCredentials</span>
+                  <span class="parameters">(mandy345@gmail.com, abcd@123)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateUserCanLoginWithValidCredentials">
+                  </a> <!-- validateUserCanLoginWithValidCredentials -->
+                  <span class="method-name">validateUserCanLoginWithValidCredentials</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateUserCanNotLoginWithInValidCredentials">
+                  </a> <!-- validateUserCanNotLoginWithInValidCredentials -->
+                  <span class="method-name">validateUserCanNotLoginWithInValidCredentials</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.naveenautomation.TestPages.VoucherSuccessPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateIfRequiredFieldsAreEmptyThenUserCannotBuyVoucher">
+                  </a> <!-- validateIfRequiredFieldsAreEmptyThenUserCannotBuyVoucher -->
+                  <span class="method-name">validateIfRequiredFieldsAreEmptyThenUserCannotBuyVoucher</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateIfUserCanBuyVoucher">
+                  </a> <!-- validateIfUserCanBuyVoucher -->
+                  <span class="method-name">validateIfUserCanBuyVoucher</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.naveenautomation.TestPages.DownloadPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateIfUserHasNotAnyDownloads">
+                  </a> <!-- validateIfUserHasNotAnyDownloads -->
+                  <span class="method-name">validateIfUserHasNotAnyDownloads</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.naveenautomation.TestPages.ContactSuccessPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateIfUserCanSuccessfullySubmitEnquiryOnContactUs">
+                  </a> <!-- validateIfUserCanSuccessfullySubmitEnquiryOnContactUs -->
+                  <span class="method-name">validateIfUserCanSuccessfullySubmitEnquiryOnContactUs</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.naveenautomation.TestPages.MacPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateIfUserCanAddMacToWishList">
+                  </a> <!-- validateIfUserCanAddMacToWishList -->
+                  <span class="method-name">validateIfUserCanAddMacToWishList</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.naveenautomation.TestPages.TransactionPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateIfUserHasNotAnyTransaction">
+                  </a> <!-- validateIfUserHasNotAnyTransaction -->
+                  <span class="method-name">validateIfUserHasNotAnyTransaction</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.naveenautomation.TestPages.AccountPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateIfUserCanFillAffiliateEditForm">
+                  </a> <!-- validateIfUserCanFillAffiliateEditForm -->
+                  <span class="method-name">validateIfUserCanFillAffiliateEditForm</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateNewspaperSubsciption">
+                  </a> <!-- validateNewspaperSubsciption -->
+                  <span class="method-name">validateNewspaperSubsciption</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateProductReturn">
+                  </a> <!-- validateProductReturn -->
+                  <span class="method-name">validateProductReturn</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateUserCanUpdatePersonalInfo">
+                  </a> <!-- validateUserCanUpdatePersonalInfo -->
+                  <span class="method-name">validateUserCanUpdatePersonalInfo</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.naveenautomation.TestPages.OrderHistoryPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateIfUserHasNotAnyOrderHistory">
+                  </a> <!-- validateIfUserHasNotAnyOrderHistory -->
+                  <span class="method-name">validateIfUserHasNotAnyOrderHistory</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.naveenautomation.TestPages.AffiliateEditPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateUserFailedToEditAffilateWithNoPayeeInput">
+                  </a> <!-- validateUserFailedToEditAffilateWithNoPayeeInput -->
+                  <span class="method-name">validateUserFailedToEditAffilateWithNoPayeeInput</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+        </div> <!-- panel Surefire_suite -->
+        <div panel-name="test-xml-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;1&quot; name=&quot;Surefire suite&quot; verbose=&quot;0&quot;&gt;
+  &lt;test thread-count=&quot;1&quot; name=&quot;Surefire test&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.naveenautomation.TestPages.AccountPageTest&quot;/&gt;
+      &lt;class name=&quot;com.naveenautomation.TestPages.AddressPageTest&quot;/&gt;
+      &lt;class name=&quot;com.naveenautomation.TestPages.AffiliateEditPageTest&quot;/&gt;
+      &lt;class name=&quot;com.naveenautomation.TestPages.ContactPageTest&quot;/&gt;
+      &lt;class name=&quot;com.naveenautomation.TestPages.ContactSuccessPageTest&quot;/&gt;
+      &lt;class name=&quot;com.naveenautomation.TestPages.DownloadPageTest&quot;/&gt;
+      &lt;class name=&quot;com.naveenautomation.TestPages.LoginPageTest&quot;/&gt;
+      &lt;class name=&quot;com.naveenautomation.TestPages.LogoutPageTest&quot;/&gt;
+      &lt;class name=&quot;com.naveenautomation.TestPages.MacPageTest&quot;/&gt;
+      &lt;class name=&quot;com.naveenautomation.TestPages.OrderHistoryPageTest&quot;/&gt;
+      &lt;class name=&quot;com.naveenautomation.TestPages.Path33PageTest&quot;/&gt;
+      &lt;class name=&quot;com.naveenautomation.TestPages.RecurringPaymentsPageTest&quot;/&gt;
+      &lt;class name=&quot;com.naveenautomation.TestPages.RewardPageTest&quot;/&gt;
+      &lt;class name=&quot;com.naveenautomation.TestPages.SpecialPageTest&quot;/&gt;
+      &lt;class name=&quot;com.naveenautomation.TestPages.TransactionPageTest&quot;/&gt;
+      &lt;class name=&quot;com.naveenautomation.TestPages.VoucherSuccessPageTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Surefire test --&gt;
+&lt;/suite&gt; &lt;!-- Surefire suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Surefire test (16 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Surefire_suite');
+function tableData_Surefire_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(26);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'validateIfUserCanAddNewAddress')
+data.setCell(0, 2, 'com.naveenautomation.TestPages.AddressPageTest')
+data.setCell(0, 3, 5443);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'validateIfUserCanFillAffiliateEditForm')
+data.setCell(1, 2, 'com.naveenautomation.TestPages.AccountPageTest')
+data.setCell(1, 3, 3587);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'validateUserCanUpdatePersonalInfo')
+data.setCell(2, 2, 'com.naveenautomation.TestPages.AccountPageTest')
+data.setCell(2, 3, 3396);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'validateIfUserCanSuccessfullySubmitEnquiryOnContactUs')
+data.setCell(3, 2, 'com.naveenautomation.TestPages.ContactSuccessPageTest')
+data.setCell(3, 3, 3367);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'validateNewspaperSubsciption')
+data.setCell(4, 2, 'com.naveenautomation.TestPages.AccountPageTest')
+data.setCell(4, 3, 3288);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'validateIfUserCanBuyVoucher')
+data.setCell(5, 2, 'com.naveenautomation.TestPages.VoucherSuccessPageTest')
+data.setCell(5, 3, 3284);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'validateUserFailedToEditAffilateWithNoPayeeInput')
+data.setCell(6, 2, 'com.naveenautomation.TestPages.AffiliateEditPageTest')
+data.setCell(6, 3, 3192);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'validateIfRequiredFieldsAreEmptyThenUserCannotBuyVoucher')
+data.setCell(7, 2, 'com.naveenautomation.TestPages.VoucherSuccessPageTest')
+data.setCell(7, 3, 3131);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'validateProductReturn')
+data.setCell(8, 2, 'com.naveenautomation.TestPages.AccountPageTest')
+data.setCell(8, 3, 2855);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'validateLogoutFunctionality')
+data.setCell(9, 2, 'com.naveenautomation.TestPages.LogoutPageTest')
+data.setCell(9, 3, 2833);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'validateIfContactUsFailedWithLessEnquiryChar')
+data.setCell(10, 2, 'com.naveenautomation.TestPages.ContactPageTest')
+data.setCell(10, 3, 2833);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'validateIfContactUsFailedWithNoEmailInput')
+data.setCell(11, 2, 'com.naveenautomation.TestPages.ContactPageTest')
+data.setCell(11, 3, 2803);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'validateIfUserCanAddMacToWishList')
+data.setCell(12, 2, 'com.naveenautomation.TestPages.MacPageTest')
+data.setCell(12, 3, 2694);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'validateIfUserCanAddProductToCompareList')
+data.setCell(13, 2, 'com.naveenautomation.TestPages.SpecialPageTest')
+data.setCell(13, 3, 2430);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'validateIfUserHasNoRewardPoints')
+data.setCell(14, 2, 'com.naveenautomation.TestPages.RewardPageTest')
+data.setCell(14, 3, 2335);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'validateIfUserHasNotAnyTransaction')
+data.setCell(15, 2, 'com.naveenautomation.TestPages.TransactionPageTest')
+data.setCell(15, 3, 2207);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'validateIfUserHasNotAnyOrderHistory')
+data.setCell(16, 2, 'com.naveenautomation.TestPages.OrderHistoryPageTest')
+data.setCell(16, 3, 2143);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'validateIfUserHasNotAnyDownloads')
+data.setCell(17, 2, 'com.naveenautomation.TestPages.DownloadPageTest')
+data.setCell(17, 3, 1968);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'validateEmailForForgottenPassword')
+data.setCell(18, 2, 'com.naveenautomation.TestPages.LoginPageTest')
+data.setCell(18, 3, 1346);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'validateLoginWithMultipleCredentials')
+data.setCell(19, 2, 'com.naveenautomation.TestPages.LoginPageTest')
+data.setCell(19, 3, 1330);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'validateLoginWithMultipleCredentials')
+data.setCell(20, 2, 'com.naveenautomation.TestPages.LoginPageTest')
+data.setCell(20, 3, 1287);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'validateLoginWithMultipleCredentials')
+data.setCell(21, 2, 'com.naveenautomation.TestPages.LoginPageTest')
+data.setCell(21, 3, 1256);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'validateLoginWithMultipleCredentials')
+data.setCell(22, 2, 'com.naveenautomation.TestPages.LoginPageTest')
+data.setCell(22, 3, 1241);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'validateLoginWithMultipleCredentials')
+data.setCell(23, 2, 'com.naveenautomation.TestPages.LoginPageTest')
+data.setCell(23, 3, 1222);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'validateUserCanLoginWithValidCredentials')
+data.setCell(24, 2, 'com.naveenautomation.TestPages.LoginPageTest')
+data.setCell(24, 3, 1143);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'validateUserCanNotLoginWithInValidCredentials')
+data.setCell(25, 2, 'com.naveenautomation.TestPages.LoginPageTest')
+data.setCell(25, 3, 995);
+window.suiteTableData['Surefire_suite']= { tableData: data, tableDiv: 'times-div-Surefire_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-Surefire_suite">
+              </div> <!-- times-div-Surefire_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">4 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.naveenautomation.TestPages.AddressPageTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">validateIfUserCanMakeExistingAddressAsDefaultAddress</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.naveenautomation.TestPages.Path33PageTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">validateCamerasAsTextAvailable</span>
+                <br/>
+                <span class="ignored-method-name">validateIfUserCanAddCanonForComparisonSuccessfully</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.naveenautomation.TestPages.RecurringPaymentsPageTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">validateIfUserHasNoRecurringPayments</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.naveenautomation.TestPages.AccountPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">loggerSetup</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">launch</span>
+                <span class="method-start">88 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateIfUserCanFillAffiliateEditForm</span>
+                <span class="method-start">7234 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quitBrowser</span>
+                <span class="method-start">10824 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launch</span>
+                <span class="method-start">11077 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateNewspaperSubsciption</span>
+                <span class="method-start">14549 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quitBrowser</span>
+                <span class="method-start">17838 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launch</span>
+                <span class="method-start">17997 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateProductReturn</span>
+                <span class="method-start">22600 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quitBrowser</span>
+                <span class="method-start">25457 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launch</span>
+                <span class="method-start">25597 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateUserCanUpdatePersonalInfo</span>
+                <span class="method-start">28951 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quitBrowser</span>
+                <span class="method-start">32351 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.naveenautomation.TestPages.RewardPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">loggerSetup</span>
+                <span class="method-start">32513 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">launch</span>
+                <span class="method-start">32513 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateIfUserHasNoRewardPoints</span>
+                <span class="method-start">35982 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quitBrowser</span>
+                <span class="method-start">38319 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.naveenautomation.TestPages.AddressPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">loggerSetup</span>
+                <span class="method-start">38542 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">launch</span>
+                <span class="method-start">38547 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateIfUserCanAddNewAddress</span>
+                <span class="method-start">41967 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quitBrowser</span>
+                <span class="method-start">47411 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.naveenautomation.TestPages.SpecialPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">loggerSetup</span>
+                <span class="method-start">47569 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">launch</span>
+                <span class="method-start">47573 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateIfUserCanAddProductToCompareList</span>
+                <span class="method-start">54046 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quitBrowser</span>
+                <span class="method-start">56477 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.naveenautomation.TestPages.AffiliateEditPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">loggerSetup</span>
+                <span class="method-start">56743 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">launch</span>
+                <span class="method-start">56743 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateUserFailedToEditAffilateWithNoPayeeInput</span>
+                <span class="method-start">61670 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quitBrowser</span>
+                <span class="method-start">64865 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.naveenautomation.TestPages.TransactionPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">loggerSetup</span>
+                <span class="method-start">65072 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">launch</span>
+                <span class="method-start">65072 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateIfUserHasNotAnyTransaction</span>
+                <span class="method-start">68550 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quitBrowser</span>
+                <span class="method-start">70767 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.naveenautomation.TestPages.ContactPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">loggerSetup</span>
+                <span class="method-start">70932 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">launch</span>
+                <span class="method-start">70932 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateIfContactUsFailedWithLessEnquiryChar</span>
+                <span class="method-start">76229 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quitBrowser</span>
+                <span class="method-start">79065 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launch</span>
+                <span class="method-start">79253 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateIfContactUsFailedWithNoEmailInput</span>
+                <span class="method-start">82718 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quitBrowser</span>
+                <span class="method-start">85522 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.naveenautomation.TestPages.VoucherSuccessPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">loggerSetup</span>
+                <span class="method-start">85667 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">launch</span>
+                <span class="method-start">85667 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateIfRequiredFieldsAreEmptyThenUserCannotBuyVoucher</span>
+                <span class="method-start">91254 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quitBrowser</span>
+                <span class="method-start">94390 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launch</span>
+                <span class="method-start">94540 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateIfUserCanBuyVoucher</span>
+                <span class="method-start">100300 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quitBrowser</span>
+                <span class="method-start">103587 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.naveenautomation.TestPages.ContactSuccessPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">loggerSetup</span>
+                <span class="method-start">103795 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">launch</span>
+                <span class="method-start">103795 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateIfUserCanSuccessfullySubmitEnquiryOnContactUs</span>
+                <span class="method-start">107562 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quitBrowser</span>
+                <span class="method-start">110931 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.naveenautomation.TestPages.DownloadPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">loggerSetup</span>
+                <span class="method-start">111075 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">launch</span>
+                <span class="method-start">111075 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateIfUserHasNotAnyDownloads</span>
+                <span class="method-start">114479 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quitBrowser</span>
+                <span class="method-start">116448 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.naveenautomation.TestPages.LoginPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">loggerSetup</span>
+                <span class="method-start">116616 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">launch</span>
+                <span class="method-start">116621 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateEmailForForgottenPassword</span>
+                <span class="method-start">120029 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quitBrowser</span>
+                <span class="method-start">121376 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launch</span>
+                <span class="method-start">122778 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateLoginWithMultipleCredentials(mandy345@gmail.com, abcd@123)</span>
+                <span class="method-start">128185 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quitBrowser</span>
+                <span class="method-start">129428 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launch</span>
+                <span class="method-start">129588 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateLoginWithMultipleCredentials(sarkaria001@gmail.com, singh@4567)</span>
+                <span class="method-start">133119 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quitBrowser</span>
+                <span class="method-start">134344 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launch</span>
+                <span class="method-start">134568 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateLoginWithMultipleCredentials(sandeepkaur1@gmail.com, sandy)</span>
+                <span class="method-start">137846 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quitBrowser</span>
+                <span class="method-start">139177 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launch</span>
+                <span class="method-start">139340 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateLoginWithMultipleCredentials(gurjapvirk@gmail.com, gurjap)</span>
+                <span class="method-start">143959 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quitBrowser</span>
+                <span class="method-start">145247 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launch</span>
+                <span class="method-start">145425 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateLoginWithMultipleCredentials(suryaprakasha@live.in, goppa1234)</span>
+                <span class="method-start">151626 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quitBrowser</span>
+                <span class="method-start">152883 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launch</span>
+                <span class="method-start">153105 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateUserCanLoginWithValidCredentials</span>
+                <span class="method-start">156342 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quitBrowser</span>
+                <span class="method-start">157487 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launch</span>
+                <span class="method-start">157673 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateUserCanNotLoginWithInValidCredentials</span>
+                <span class="method-start">161027 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quitBrowser</span>
+                <span class="method-start">162023 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.naveenautomation.TestPages.LogoutPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">loggerSetup</span>
+                <span class="method-start">162207 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">launch</span>
+                <span class="method-start">162207 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateLogoutFunctionality</span>
+                <span class="method-start">166689 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quitBrowser</span>
+                <span class="method-start">169523 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.naveenautomation.TestPages.MacPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">loggerSetup</span>
+                <span class="method-start">169678 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">launch</span>
+                <span class="method-start">169679 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateIfUserCanAddMacToWishList</span>
+                <span class="method-start">176589 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quitBrowser</span>
+                <span class="method-start">179284 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.naveenautomation.TestPages.OrderHistoryPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">loggerSetup</span>
+                <span class="method-start">179519 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">launch</span>
+                <span class="method-start">179524 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateIfUserHasNotAnyOrderHistory</span>
+                <span class="method-start">182945 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quitBrowser</span>
+                <span class="method-start">185090 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

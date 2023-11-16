@@ -3,13 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.naveenautomation.Utils.DownloadAFile">
+      <class name="com.naveenautomation.TestPages.AddressPageTest">
         <methods>
-          <include name="setup"/>
-          <include name="tearDown"/>
-          <include name="validateIfUserCanVerifyADownloadedFile"/>
+          <include name="loggerSetup"/>
+          <include name="validateIfUserCanMakeExistingAddressAsDefaultAddress"/>
+          <include name="launch"/>
+          <include name="quitBrowser"/>
         </methods>
-      </class> <!-- com.naveenautomation.Utils.DownloadAFile -->
+      </class> <!-- com.naveenautomation.TestPages.AddressPageTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

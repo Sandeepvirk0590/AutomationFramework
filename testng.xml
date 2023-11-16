@@ -1,22 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Suite">
-<listeners>
-		<listener class-name="com.naveenautomation.Utils.CustomListener" />
-		<listener class-name="com.naveenautomation.Utils.TransformerForRetry"/>
-		<listener class-name="com.naveenautomation.Utils.ExtentReportListener" />
+	<listeners>
+		<listener
+			class-name="com.naveenautomation.Utils.CustomListener" />
+		<listener
+			class-name="com.naveenautomation.Utils.TransformerForRetry" />
+		<listener
+			class-name="com.naveenautomation.Utils.ExtentReportListener" />
 	</listeners>
-  <test thread-count="5" name="Test">
-    <classes>
-      <class name="com.naveenautomation.TestPages.AccountPageTest"/>
-      <class name="com.naveenautomation.TestPages.AddressPageTest"/>
-      <class name="com.naveenautomation.TestPages.LogoutPageTest"/>
-      <class name="com.naveenautomation.TestPages.LoginPageTest"/>
-      <class name="com.naveenautomation.TestPages.DownloadPageTest"/>
-      <class name="com.naveenautomation.TestPages.SpecialPageTest"/>
-      <class name="com.naveenautomation.TestPages.MacPageTest"/>
-      <class name="com.naveenautomation.TestPages.VoucherSuccessPageTest"/>
-      
-    </classes>
-  </test> <!-- Test -->
+	<test thread-count="5" name="Test">
+		<classes>
+			<class name="com.naveenautomation.TestPages.AccountPageTest" />
+			<class name="com.naveenautomation.TestPages.AddressPageTest" />
+			<class name="com.naveenautomation.TestPages.AffiliateEditPageTest" />
+			<class name="com.naveenautomation.TestPages.ContactPageTest" />
+			<class name="com.naveenautomation.TestPages.ContactSuccessPageTest" />
+			<class name="com.naveenautomation.TestPages.DownloadPageTest" />
+			<class name="com.naveenautomation.TestPages.LoginPageTest" />
+			<class name="com.naveenautomation.TestPages.LogoutPageTest" />
+			<class name="com.naveenautomation.TestPages.MacPageTest" />
+			<class
+				name="com.naveenautomation.TestPages.OrderHistoryPageTest" />
+			<class
+				name="com.naveenautomation.TestPages.RecurringPaymentsPageTest" />
+			<class name="com.naveenautomation.TestPages.RewardPageTest" />
+			<class name="com.naveenautomation.TestPages.SpecialPageTest" />
+			<class
+				name="com.naveenautomation.TestPages.TransactionPageTest" />
+			<class
+				name="com.naveenautomation.TestPages.VoucherSuccessPageTest" />
+			<class name="com.naveenautomation.TestPages.WishlistTestPage" />
+
+		</classes>
+	</test> <!-- Test -->
 </suite> <!-- Suite -->
