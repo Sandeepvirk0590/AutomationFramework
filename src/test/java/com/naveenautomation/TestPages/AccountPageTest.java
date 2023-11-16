@@ -8,6 +8,7 @@ import org.testng.annotations.Test;
 import com.naveenautomation.base.NavigationBarOnEveryPage;
 import com.naveenautomation.base.TestBase;
 import com.naveenautomation.pages.AccountPage;
+import com.naveenautomation.pages.AffiliateEditPage;
 import com.naveenautomation.pages.UpdatePasswordPage;
 import com.naveenautomation.pages.EditAccountInfoPage;
 import com.naveenautomation.pages.LoginPage;
@@ -21,6 +22,7 @@ public class AccountPageTest extends TestBase {
 	EditAccountInfoPage editPage;
 	NewsletterSubscriptionPage newsletterSubscriptionPage;
 	UpdatePasswordPage changePasswordPage;
+	AffiliateEditPage affiliateEditPage;
 	ProductReturnPage productReturnPage;
 
 	@BeforeMethod
@@ -46,6 +48,15 @@ public class AccountPageTest extends TestBase {
 		newsletterSubscriptionPage.getNewspaperSubscription();
 		Assert.assertEquals(accountPage.getNewspaperSubsciptionSuccessMessage(),
 				"Success: Your newsletter subscription has been successfully updated!", "Subscription Failed!");
+	}
+
+	@Test
+	public void validateIfUserCanFillAffiliateEditForm() {
+		accountPage = loginPage.SubmitLogin("sandeepkaur1@gmail.com", "sandy");
+		affiliateEditPage = accountPage.clickOnAffiliatePageLink();
+		affiliateEditPage.fillTheAffiliateEditForm("XYZ Company", "naveenAutomation", "TD123", true, "SandeepK");
+		Assert.assertEquals(accountPage.getEditAffiliateSuccessMessage(),
+				"Success: Your account has been successfully updated.", "Failed to edit affiliate");
 	}
 
 	@Test

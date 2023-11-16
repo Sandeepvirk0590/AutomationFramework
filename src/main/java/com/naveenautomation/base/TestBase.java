@@ -39,10 +39,10 @@ public class TestBase {
 	public WebdriverEvents events;
 	public EventFiringWebDriver e_driver;
 
-	private static final boolean RUN_ON_GRID = true;
+	private static final boolean RUN_ON_GRID = false;
 
 	@BeforeClass
-	public void loggerSteup() {
+	public void loggerSetup() {
 		logger = Logger.getLogger(TestBase.class);
 		PropertyConfigurator.configure("log4j.properties");
 		BasicConfigurator.configure();
@@ -58,19 +58,7 @@ public class TestBase {
 				e.printStackTrace();
 			}
 		} else {
-			switch (BROWSER.getBrowserName()) {
-			case "CHROME":
-				wd = WebDriverManager.chromedriver().create();
-				break;
-			case "EDGE":
-				wd = WebDriverManager.edgedriver().create();
-				break;
-			case "FIREFOX":
-				wd = WebDriverManager.firefoxdriver().create();
-				break;
-			default:
-				throw new IllegalArgumentException();
-			}
+			wd = createWebDriver(BROWSER);
 		}
 
 		// Wrap the instance
@@ -90,6 +78,19 @@ public class TestBase {
 		wd.manage().deleteAllCookies();
 
 		wd.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+	}
+
+	private WebDriver createWebDriver(Browsers browser) {
+		switch (browser) {
+		case CHROME:
+			return WebDriverManager.chromedriver().create();
+		case EDGE:
+			return WebDriverManager.edgedriver().create();
+		case FIREFOX:
+			return WebDriverManager.firefoxdriver().create();
+		default:
+			throw new IllegalArgumentException("Invalid browser!");
+		}
 	}
 
 	public MutableCapabilities getOptions() {

@@ -37,11 +37,6 @@ public class CustomListener extends TestBase implements ITestListener {
 	}
 
 	@Override
-	public void onTestFailedWithTimeout(ITestResult result) {
-		onTestFailure(result);
-	}
-
-	@Override
 	public void onStart(ITestContext context) {
 
 	}

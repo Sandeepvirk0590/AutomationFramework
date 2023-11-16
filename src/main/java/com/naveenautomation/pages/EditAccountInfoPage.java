@@ -28,6 +28,7 @@ public class EditAccountInfoPage extends TestBase {
 	WebElement submitBtn;
 
 	public void enterFName(String name) {
+		firstNameInput.clear();
 		firstNameInput.sendKeys(name);
 	}
 

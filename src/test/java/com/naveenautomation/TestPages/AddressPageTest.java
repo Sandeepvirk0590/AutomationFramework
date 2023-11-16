@@ -10,6 +10,7 @@ import com.naveenautomation.base.TestBase;
 import com.naveenautomation.pages.AccountPage;
 import com.naveenautomation.pages.AddressAddPage;
 import com.naveenautomation.pages.AddressPage;
+import com.naveenautomation.pages.EditAddressPage;
 import com.naveenautomation.pages.LoginPage;
 
 public class AddressPageTest extends TestBase {
@@ -18,6 +19,7 @@ public class AddressPageTest extends TestBase {
 	AccountPage accountPage;
 	AddressPage addressPage;
 	AddressAddPage addressFormPage;
+	EditAddressPage editAddressPage;
 
 	@BeforeMethod
 	public void launch() {
@@ -34,6 +36,16 @@ public class AddressPageTest extends TestBase {
 				"Ontario");
 		Assert.assertEquals(addressPage.getUpdateForAddingNewAddress(), "Your address has been successfully added",
 				"Failed to add new Address!");
+	}
+
+	@Test(enabled=false)
+	public void validateIfUserCanMakeExistingAddressAsDefaultAddress() {
+		accountPage = loginPage.SubmitLogin("sandeepkaur1@gmail.com", "sandy");
+		addressPage = accountPage.addNewAddress(NavigationBarOnEveryPage.ADDRESS_BOOK);
+		editAddressPage = addressPage.clickButtonToEditAddress();
+		editAddressPage.makeExistingAddressAsDefaultAddress();
+		Assert.assertEquals(addressPage.getMessageForAddressUpdated(), "Your address has been successfully updated",
+				"Failed to edit Existing Address!");
 	}
 
 	@AfterMethod
