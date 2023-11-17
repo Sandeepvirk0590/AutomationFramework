@@ -38,15 +38,15 @@ public class AddressPageTest extends TestBase {
 				"Failed to add new Address!");
 	}
 
-	@Test(enabled=false)
-	public void validateIfUserCanMakeExistingAddressAsDefaultAddress() {
-		accountPage = loginPage.SubmitLogin("sandeepkaur1@gmail.com", "sandy");
-		addressPage = accountPage.addNewAddress(NavigationBarOnEveryPage.ADDRESS_BOOK);
-		editAddressPage = addressPage.clickButtonToEditAddress();
-		editAddressPage.makeExistingAddressAsDefaultAddress();
-		Assert.assertEquals(addressPage.getMessageForAddressUpdated(), "Your address has been successfully updated",
-				"Failed to edit Existing Address!");
-	}
+//	@Test(enabled=false)
+//	public void validateIfUserCanMakeExistingAddressAsDefaultAddress() {
+//		accountPage = loginPage.SubmitLogin("sandeepkaur1@gmail.com", "sandy");
+//		addressPage = accountPage.addNewAddress(NavigationBarOnEveryPage.ADDRESS_BOOK);
+//		editAddressPage = addressPage.clickButtonToEditAddress();
+//		editAddressPage.makeExistingAddressAsDefaultAddress();
+//		Assert.assertEquals(addressPage.getMessageForAddressUpdated(), "Your address has been successfully updated",
+//				"Failed to edit Existing Address!");
+//	}
 
 	@AfterMethod
 	public void quitBrowser() {
