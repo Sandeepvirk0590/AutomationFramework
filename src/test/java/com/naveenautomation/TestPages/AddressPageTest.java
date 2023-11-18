@@ -34,7 +34,7 @@ public class AddressPageTest extends TestBase {
 		addressFormPage = addressPage.clickButtonToAddAddress();
 		addressFormPage.formToAddNewAddress("Sandeep", "Kaur", "89 Nova Scotia Rd", "Brampton", "L6Y5K1", "Canada",
 				"Ontario");
-		Assert.assertEquals(addressPage.getUpdateForAddingNewAddress(), "",
+		Assert.assertEquals(addressPage.getUpdateForAddingNewAddress(), "Your address has been successfully added",
 				"Failed to add new Address!");
 	}
 

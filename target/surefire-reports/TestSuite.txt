@@ -1,4 +1,13 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 26, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 186.546 s - in TestSuite
+Tests run: 26, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 227.319 s <<< FAILURE! - in TestSuite
+validateIfUserCanAddNewAddress(com.naveenautomation.TestPages.AddressPageTest)  Time elapsed: 14.571 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+Cannot locate element with text: Ontario
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'GURSANDEEP_VIRK', ip: '10.0.0.61', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16'
+Driver info: driver.version: unknown
+	at com.naveenautomation.TestPages.AddressPageTest.validateIfUserCanAddNewAddress(AddressPageTest.java:35)
+

@@ -3,22 +3,14 @@
 <suite thread-count="1" name="Failed suite [Surefire suite]" verbose="0">
   <test thread-count="1" name="Surefire test(failed)" verbose="0">
     <classes>
-      <class name="com.naveenautomation.TestPages.LoginPageTest">
+      <class name="com.naveenautomation.TestPages.AddressPageTest">
         <methods>
           <include name="loggerSetup"/>
-          <include name="launch"/>
-          <include name="validateLoginWithMultipleCredentials" invocation-numbers="0 3"/>
           <include name="quitBrowser"/>
-        </methods>
-      </class> <!-- com.naveenautomation.TestPages.LoginPageTest -->
-      <class name="com.naveenautomation.TestPages.RecurringPaymentsPageTest">
-        <methods>
-          <include name="validateIfUserHasNoRecurringPayments"/>
-          <include name="loggerSetup"/>
+          <include name="validateIfUserCanAddNewAddress"/>
           <include name="launch"/>
-          <include name="quitBrowser"/>
         </methods>
-      </class> <!-- com.naveenautomation.TestPages.RecurringPaymentsPageTest -->
+      </class> <!-- com.naveenautomation.TestPages.AddressPageTest -->
     </classes>
   </test> <!-- Surefire test(failed) -->
 </suite> <!-- Failed suite [Surefire suite] -->
