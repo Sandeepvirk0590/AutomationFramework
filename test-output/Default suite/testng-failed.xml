@@ -6,8 +6,8 @@
       <class name="com.naveenautomation.TestPages.AddressPageTest">
         <methods>
           <include name="loggerSetup"/>
-          <include name="validateIfUserCanMakeExistingAddressAsDefaultAddress"/>
           <include name="launch"/>
+          <include name="validateIfUserCanAddNewAddress"/>
           <include name="quitBrowser"/>
         </methods>
       </class> <!-- com.naveenautomation.TestPages.AddressPageTest -->
