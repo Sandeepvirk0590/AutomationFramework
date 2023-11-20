@@ -46,8 +46,8 @@ public class TestBase {
 	}
 
 	public void intialisation() {
-		
-//		String browserName = System.getProperty("browser", "CHROME").toUpperCase();
+
+		String browserName = System.getProperty("Browser");
 
 		if (RUN_ON_GRID) {
 			try {
@@ -55,6 +55,8 @@ public class TestBase {
 			} catch (MalformedURLException e) {
 				e.printStackTrace();
 			}
+		} else if (browserName.contains("Chrome")) {
+			browserName = "Chrome";
 		} else {
 			switch (BROWSER) {
 			case CHROME:
@@ -108,7 +110,7 @@ public class TestBase {
 		String timeStamp = new SimpleDateFormat("yyyy.MM.dd.HH.mm.ss").format(new Date());
 
 		File screenShotFile = ((TakesScreenshot) wd).getScreenshotAs(OutputType.FILE);
-		
+
 		try {
 			FileHandler.copy(screenShotFile,
 					new File("./FailedTestCasesScreenShot/" + "_" + testMethodName + "_" + timeStamp + ".jpg"));
