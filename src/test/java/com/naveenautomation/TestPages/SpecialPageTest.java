@@ -24,7 +24,7 @@ public class SpecialPageTest extends TestBase {
 
 	@Test
 	public void validateIfUserCanAddProductToCompareList() {
-		accountPage = loginPage.SubmitLogin("sandeepkaur1@gmail.com", "sandy");
+		accountPage = loginPage.SubmitLogin("gurjapvirk@gmail.com", "gurjap");
 		specialPage = accountPage.checkTheSpecialOffers();
 		specialPage.addToCompareList();
 		Assert.assertEquals(specialPage.getAddToCompareSucessMessgae(), "product comparison",

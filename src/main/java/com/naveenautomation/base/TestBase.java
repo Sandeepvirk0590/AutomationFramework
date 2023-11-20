@@ -9,7 +9,6 @@ import java.net.URL;
 import java.util.Date;
 import java.util.List;
 
-//import org.apache.commons.io.FileUtils;
 import org.apache.log4j.BasicConfigurator;
 import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
@@ -23,6 +22,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.io.FileHandler;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.testng.annotations.BeforeClass;
 
@@ -46,7 +46,8 @@ public class TestBase {
 	}
 
 	public void intialisation() {
-			
+		
+//		String browserName = System.getProperty("browser", "CHROME").toUpperCase();
 
 		if (RUN_ON_GRID) {
 			try {
@@ -56,7 +57,7 @@ public class TestBase {
 			}
 		} else {
 			switch (BROWSER) {
-			case CHROME:				
+			case CHROME:
 				wd = new ChromeDriver();
 				break;
 			case EDGE:
@@ -102,20 +103,18 @@ public class TestBase {
 		}
 	}
 
-//	public static void failedTestScreenShot(String testMethodName) {
-//
-//		String timeStamp = new SimpleDateFormat("yyyy.MM.dd.HH.mm.ss").format(new Date());
-//
-//		File screenShotFfile = ((TakesScreenshot) wd).getScreenshotAs(OutputType.FILE);
-//
-//		try {
-//			FileUtils.copyFile(screenShotFfile,
-//					new File("./FailedTestCasesScreenShot\\" + "_" + testMethodName + "_" + timeStamp + ".jpg"));
-//		} catch (IOException e) {
-//
-//			System.out.println("................................The IO Exception is ...... " + e);
-//			e.printStackTrace();
-//		}
-//
-//	}
+	public static void failedTestScreenShot(String testMethodName) {
+
+		String timeStamp = new SimpleDateFormat("yyyy.MM.dd.HH.mm.ss").format(new Date());
+
+		File screenShotFile = ((TakesScreenshot) wd).getScreenshotAs(OutputType.FILE);
+		
+		try {
+			FileHandler.copy(screenShotFile,
+					new File("./FailedTestCasesScreenShot/" + "_" + testMethodName + "_" + timeStamp + ".jpg"));
+		} catch (IOException e) {
+			System.out.println("The IO Exception is: " + e);
+			e.printStackTrace();
+		}
+	}
 }

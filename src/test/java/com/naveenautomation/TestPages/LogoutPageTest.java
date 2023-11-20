@@ -25,7 +25,7 @@ public class LogoutPageTest extends TestBase {
 
 	@Test
 	public void validateLogoutFunctionality() {
-		accountPage = loginPage.SubmitLogin("sandeepkaur1@gmail.com", "sandy");
+		accountPage = loginPage.SubmitLogin("gurjapvirk@gmail.com", "gurjap");
 		logoutPage= accountPage.logoutYourAccount(NavigationBarOnEveryPage.LOGOUT);
 		Assert.assertEquals(logoutPage.getAccountLogoutText(), "Account Logout", "Click logout Button to logout!");
 	}

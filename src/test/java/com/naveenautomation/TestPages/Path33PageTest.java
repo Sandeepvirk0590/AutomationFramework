@@ -24,14 +24,14 @@ public class Path33PageTest extends TestBase {
 
 	@Test(enabled = false)
 	public void validateCamerasAsTextAvailable() {
-		accountPage = loginPage.SubmitLogin("sandeepkaur1@gmail.com", "sandy");
+		accountPage = loginPage.SubmitLogin("gurjapvirk@gmail.com", "gurjap");
 		path33Page = accountPage.getPath33PageLink();
 		Assert.assertEquals(path33Page.getTextAsCameras(), "Cameras", "Failed to get Page!");
 	}
 
 	@Test(enabled = false)
 	public void validateIfUserCanAddCanonForComparisonSuccessfully() {
-		accountPage = loginPage.SubmitLogin("sandeepkaur1@gmail.com", "sandy");
+		accountPage = loginPage.SubmitLogin("gurjapvirk@gmail.com", "gurjap");
 		path33Page = accountPage.getPath33PageLink();
 		path33Page.addingCanonCameraInCompareList();
 		Assert.assertEquals(path33Page.getSuccessMessageIfCanonAddedToComparison(), "Success: You have added",

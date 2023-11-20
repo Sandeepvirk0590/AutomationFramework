@@ -24,7 +24,7 @@ public class ContactPageTest extends TestBase {
 
 	@Test
 	public void validateIfContactUsFailedWithNoEmailInput() {
-		accountPage = loginPage.SubmitLogin("sandeepkaur1@gmail.com", "sandy");
+		accountPage = loginPage.SubmitLogin("gurjapvirk@gmail.com", "gurjap");
 		contactPage = accountPage.ContactFormPage();
 		contactPage.fillContactForm("Sandeep", " ", "Do You have Iphone 15 in stock?");
 		Assert.assertEquals(contactPage.getTextForInvalidEmail(), "E-Mail Address does not appear to be valid!",
@@ -33,7 +33,7 @@ public class ContactPageTest extends TestBase {
 
 	@Test
 	public void validateIfContactUsFailedWithLessEnquiryChar() {
-		accountPage = loginPage.SubmitLogin("sandeepkaur1@gmail.com", "sandy");
+		accountPage = loginPage.SubmitLogin("gurjapvirk@gmail.com", "gurjap");
 		contactPage = accountPage.ContactFormPage();
 		contactPage.fillContactForm("Sandeep", "sandeep@gmail.com", "Iphone15?");
 		Assert.assertEquals(contactPage.getTextForLessCharForEnquiry(),

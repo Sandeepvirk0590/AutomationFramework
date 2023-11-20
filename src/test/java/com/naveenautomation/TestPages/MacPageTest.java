@@ -24,7 +24,7 @@ public class MacPageTest extends TestBase {
 
 	@Test
 	public void validateIfUserCanAddMacToWishList() {
-		accountPage = loginPage.SubmitLogin("sandeepkaur1@gmail.com", "sandy");
+		accountPage = loginPage.SubmitLogin("gurjapvirk@gmail.com", "gurjap");
 		macPage = accountPage.pageLinkToGoOnMac();
 	    macPage.addItemToWishlist();
 		Assert.assertEquals(macPage.getAddToWishList(), "iMac", "Item failed to add in Wish List.");

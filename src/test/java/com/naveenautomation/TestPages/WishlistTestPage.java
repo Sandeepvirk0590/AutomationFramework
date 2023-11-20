@@ -25,7 +25,7 @@ public class WishlistTestPage extends TestBase {
 
 	@Test
 	public void validateIfUserCanRemoveItemFromWishlistIfNotInStock() {
-		accountPage = loginPage.SubmitLogin("sandeepkaur1@gmail.com", "sandy");
+		accountPage = loginPage.SubmitLogin("gurjapvirk@gmail.com", "gurjap");
 		wishlistPage = accountPage.goToYourWishlist(NavigationBarOnEveryPage.WISH_LIST);
 		wishlistPage.deleteItemFromWishlist();
 		Assert.assertEquals(wishlistPage.getWishlistModifyingSuccessMessage(),

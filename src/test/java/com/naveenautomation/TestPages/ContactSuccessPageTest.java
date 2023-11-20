@@ -28,7 +28,7 @@ public class ContactSuccessPageTest extends TestBase {
 	public void validateIfUserCanSuccessfullySubmitEnquiryOnContactUs() {
 		accountPage = loginPage.SubmitLogin("sandeepkaur1@gmail.com", "sandy");
 		contactPage = accountPage.ContactFormPage();
-		contactSuccessPage = contactPage.fillContactForm("Sandeep", "sandeep@gmail.com",
+		contactSuccessPage = contactPage.fillContactForm("Gurjap", "gurjapvirk@gmail.com",
 				"Do You have Iphone 15 in stock?");
 		Assert.assertEquals(contactSuccessPage.getTextThatEnquirySubmittedSuccessfully(),
 				"Your enquiry has been successfully sent to the store owner!", "Failed to submit enquiry!");

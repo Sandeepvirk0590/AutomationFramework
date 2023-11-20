@@ -25,7 +25,7 @@ public class DownloadPageTest extends TestBase {
 
 	@Test
 	public void validateIfUserHasNotAnyDownloads() {
-		accountPage = loginPage.SubmitLogin("sandeepkaur1@gmail.com", "sandy");
+		accountPage = loginPage.SubmitLogin("gurjapvirk@gmail.com", "gurjap");
 		downloadPage = accountPage.checkDownloads(NavigationBarOnEveryPage.DOWNLOADS);
 		Assert.assertEquals(downloadPage.getMessageRegardingDownloads(),
 				"You have not made any previous downloadable orders!", "You have some downloads");

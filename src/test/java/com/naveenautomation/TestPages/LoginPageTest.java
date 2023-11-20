@@ -27,7 +27,7 @@ public class LoginPageTest extends TestBase {
 
 	@Test
 	public void validateUserCanLoginWithValidCredentials() {
-		accountPage = loginPage.SubmitLogin("sandeepkaur1@gmail.com", "sandy");
+		accountPage = loginPage.SubmitLogin("gurjapvirk@gmail.com", "gurjap");
 		Assert.assertEquals(accountPage.getMyAccountText(), "My Account", "User not logged in");
 	}
 

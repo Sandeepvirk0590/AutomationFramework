@@ -33,7 +33,7 @@ public class AccountPageTest extends TestBase {
 
 	@Test
 	public void validateUserCanUpdatePersonalInfo() {
-		accountPage = loginPage.SubmitLogin("sandeepkaur1@gmail.com", "sandy");
+		accountPage = loginPage.SubmitLogin("gurjapvirk@gmail.com", "gurjap");
 		editPage = accountPage.clickEditInfoLink(NavigationBarOnEveryPage.EDIT_ACCOUNT);
 		editPage.enterFName("SandeepKaur");
 		accountPage = editPage.clickSubmitBtn();
@@ -43,7 +43,7 @@ public class AccountPageTest extends TestBase {
 
 	@Test
 	public void validateNewspaperSubsciption() {
-		accountPage = loginPage.SubmitLogin("sandeepkaur1@gmail.com", "sandy");
+		accountPage = loginPage.SubmitLogin("gurjapvirk@gmail.com", "gurjap");
 		newsletterSubscriptionPage = accountPage.clickNewsletterSubscriptionLink(NavigationBarOnEveryPage.NEWSLETTER);
 		newsletterSubscriptionPage.getNewspaperSubscription();
 		Assert.assertEquals(accountPage.getNewspaperSubsciptionSuccessMessage(),
@@ -52,7 +52,7 @@ public class AccountPageTest extends TestBase {
 
 	@Test
 	public void validateIfUserCanFillAffiliateEditForm() {
-		accountPage = loginPage.SubmitLogin("sandeepkaur1@gmail.com", "sandy");
+		accountPage = loginPage.SubmitLogin("gurjapvirk@gmail.com", "gurjap");
 		affiliateEditPage = accountPage.clickOnAffiliatePageLink();
 		affiliateEditPage.fillTheAffiliateEditForm("XYZ Company", "naveenAutomation", "TD123", true, "SandeepK");
 		Assert.assertEquals(accountPage.getEditAffiliateSuccessMessage(),
@@ -61,7 +61,7 @@ public class AccountPageTest extends TestBase {
 
 	@Test
 	public void validateProductReturn() {
-		accountPage = loginPage.SubmitLogin("sandeepkaur1@gmail.com", "sandy");
+		accountPage = loginPage.SubmitLogin("gurjapvirk@gmail.com", "gurjap");
 		productReturnPage = accountPage.productReturnLink(NavigationBarOnEveryPage.RETURNS);
 		Assert.assertEquals(productReturnPage.productReturn(), "You have not made any previous returns!",
 				"Return in process!");

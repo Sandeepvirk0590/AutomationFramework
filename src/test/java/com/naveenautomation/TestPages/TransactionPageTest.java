@@ -25,7 +25,7 @@ public class TransactionPageTest extends TestBase {
 
 	@Test
 	public void validateIfUserHasNotAnyTransaction() {
-		accountPage = loginPage.SubmitLogin("sandeepkaur1@gmail.com", "sandy");
+		accountPage = loginPage.SubmitLogin("gurjapvirk@gmail.com", "gurjap");
 		transactionPage = accountPage.checkYourTransactions(NavigationBarOnEveryPage.TRANSACTIONS);
 		Assert.assertEquals(transactionPage.getTextForNoTransaction(), "You do not have any transactions!",
 				"Your transactions are displayed!");

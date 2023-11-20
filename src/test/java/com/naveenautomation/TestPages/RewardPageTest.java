@@ -25,7 +25,7 @@ public class RewardPageTest extends TestBase {
 
 	@Test
 	public void validateIfUserHasNoRewardPoints() {
-		accountPage = loginPage.SubmitLogin("sandeepkaur1@gmail.com", "sandy");
+		accountPage = loginPage.SubmitLogin("gurjapvirk@gmail.com", "gurjap");
 		rewardPage = accountPage.checkYourRewardPoints(NavigationBarOnEveryPage.REWARD_POINTS);
 		Assert.assertEquals(rewardPage.getMessageOfNoRewardPoints(), "You do not have any reward points!",
 				"You have Reward Points!");

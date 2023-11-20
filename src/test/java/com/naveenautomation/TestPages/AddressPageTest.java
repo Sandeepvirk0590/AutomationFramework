@@ -29,7 +29,7 @@ public class AddressPageTest extends TestBase {
 
 	@Test
 	public void validateIfUserCanAddNewAddress() {
-		accountPage = loginPage.SubmitLogin("sandeepkaur1@gmail.com", "sandy");
+		accountPage = loginPage.SubmitLogin("gurjapvirk@gmail.com", "gurjap");
 		addressPage = accountPage.addNewAddress(NavigationBarOnEveryPage.ADDRESS_BOOK);
 		addressFormPage = addressPage.clickButtonToAddAddress();
 		addressFormPage.formToAddNewAddress("Sandeep", "Kaur", "89 Nova Scotia Rd", "Brampton", "L6Y5K1", "Canada",

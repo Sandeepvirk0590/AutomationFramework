@@ -20,11 +20,12 @@ public class CustomListener extends TestBase implements ITestListener {
 				+ "****************************");
 	}
 
-//	@Override
-//	public void onTestFailure(ITestResult result) {
-//		logger.info("!!!!!!!!!!!!!!Test Case Fail: " + result.getMethod().getMethodName() + " Taking Screenshot!!!!!!!!!!!!!!!!!!!!");
-//		TestBase.failedTestScreenShot(result.getMethod().getMethodName());
-//	}
+	@Override
+	public void onTestFailure(ITestResult result) {
+		String methodName = result.getMethod().getMethodName();
+		logger.info("!!!!!!!!!!!!!!Test Case Fail: " + methodName + " Taking Screenshot!!!!!!!!!!!!!!!!!!!!");		
+        TestBase.failedTestScreenShot(methodName);
+        }
 
 	@Override
 	public void onTestSkipped(ITestResult result) {
@@ -46,9 +47,4 @@ public class CustomListener extends TestBase implements ITestListener {
 
 	}
 
-	@Override
-	public void onTestFailure(ITestResult result) {
-		// TODO Auto-generated method stub
-		
-	}
 }

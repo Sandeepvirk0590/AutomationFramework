@@ -25,7 +25,7 @@ public class OrderHistoryPageTest extends TestBase {
 
 	@Test
 	public void validateIfUserHasNotAnyOrderHistory() {
-		accountPage = loginPage.SubmitLogin("sandeepkaur1@gmail.com", "sandy");
+		accountPage = loginPage.SubmitLogin("gurjapvirk@gmail.com", "gurjap");
 		orderHistoryPage = accountPage.checkorderHistory(NavigationBarOnEveryPage.ORDER_HISTORY);
 		Assert.assertEquals(orderHistoryPage.getMessageOfNoOrderHistory(), "You have not made any previous orders!",
 				"You have some order history");

@@ -24,7 +24,7 @@ public class RecurringPaymentsPageTest extends TestBase {
 
 	@Test (enabled=false)
 	public void validateIfUserHasNoRecurringPayments() {
-		accountPage = loginPage.SubmitLogin("sandeepkaur1@gmail.com", "sandy");
+		accountPage = loginPage.SubmitLogin("gurjapvirk@gmail.com", "gurjap");
 		recurringPage = accountPage.checkYourRecurringPayments(NavigationBarOnEveryPage.RECURRING_PAYMENTS);
 		Assert.assertEquals(recurringPage.getTextForNoRecurringPayments(), "No recurring payments found!",
 				"Your recurring payments are listed");
