@@ -51,7 +51,7 @@ public class TestBase {
 
 		if (RUN_ON_GRID) {
 			try {
-				wd = new RemoteWebDriver(new URL("http://172.20.10.2:4444"), getOptions());
+				wd = new RemoteWebDriver(new URL("http://localhost:4444"), getOptions());
 			} catch (MalformedURLException e) {
 				e.printStackTrace();
 			}

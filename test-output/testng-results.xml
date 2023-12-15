@@ -2,28 +2,28 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-11-19T21:40:46 EST" name="Default suite" finished-at="2023-11-19T21:40:57 EST" duration-ms="10957">
+  <suite started-at="2023-11-20T15:12:20 EST" name="Default suite" finished-at="2023-11-20T15:12:29 EST" duration-ms="8753">
     <groups>
     </groups>
-    <test started-at="2023-11-19T21:40:46 EST" name="Default test" finished-at="2023-11-19T21:40:57 EST" duration-ms="10957">
-      <class name="com.naveenautomation.TestPages.AddressPageTest">
-        <test-method is-config="true" signature="loggerSetup()[pri:0, instance:com.naveenautomation.TestPages.AddressPageTest@528c868]" started-at="2023-11-19T21:40:46 EST" name="loggerSetup" finished-at="2023-11-19T21:40:46 EST" duration-ms="68" status="PASS">
+    <test started-at="2023-11-20T15:12:20 EST" name="Default test" finished-at="2023-11-20T15:12:29 EST" duration-ms="8753">
+      <class name="com.naveenautomation.TestPages.AccountPageTest">
+        <test-method is-config="true" signature="loggerSetup()[pri:0, instance:com.naveenautomation.TestPages.AccountPageTest@27eedb64]" started-at="2023-11-20T15:12:20 EST" name="loggerSetup" finished-at="2023-11-20T15:12:20 EST" duration-ms="78" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loggerSetup -->
-        <test-method is-config="true" signature="launch()[pri:0, instance:com.naveenautomation.TestPages.AddressPageTest@528c868]" started-at="2023-11-19T21:40:46 EST" name="launch" finished-at="2023-11-19T21:40:52 EST" duration-ms="6039" status="PASS">
+        <test-method is-config="true" signature="launch()[pri:0, instance:com.naveenautomation.TestPages.AccountPageTest@27eedb64]" started-at="2023-11-20T15:12:20 EST" name="launch" finished-at="2023-11-20T15:12:26 EST" duration-ms="5463" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launch -->
-        <test-method signature="validateIfUserCanAddNewAddress()[pri:0, instance:com.naveenautomation.TestPages.AddressPageTest@528c868]" started-at="2023-11-19T21:40:52 EST" name="validateIfUserCanAddNewAddress" finished-at="2023-11-19T21:40:57 EST" duration-ms="4362" status="PASS">
+        <test-method signature="validateUserCanUpdatePersonalInfo()[pri:0, instance:com.naveenautomation.TestPages.AccountPageTest@27eedb64]" started-at="2023-11-20T15:12:26 EST" name="validateUserCanUpdatePersonalInfo" finished-at="2023-11-20T15:12:29 EST" duration-ms="2960" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validateIfUserCanAddNewAddress -->
-        <test-method is-config="true" signature="quitBrowser()[pri:0, instance:com.naveenautomation.TestPages.AddressPageTest@528c868]" started-at="2023-11-19T21:40:57 EST" name="quitBrowser" finished-at="2023-11-19T21:40:57 EST" duration-ms="294" status="PASS">
+        </test-method> <!-- validateUserCanUpdatePersonalInfo -->
+        <test-method is-config="true" signature="quitBrowser()[pri:0, instance:com.naveenautomation.TestPages.AccountPageTest@27eedb64]" started-at="2023-11-20T15:12:29 EST" name="quitBrowser" finished-at="2023-11-20T15:12:29 EST" duration-ms="102" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quitBrowser -->
-      </class> <!-- com.naveenautomation.TestPages.AddressPageTest -->
+      </class> <!-- com.naveenautomation.TestPages.AccountPageTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

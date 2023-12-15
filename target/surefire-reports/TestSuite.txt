@@ -1,13 +1,208 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 26, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 227.319 s <<< FAILURE! - in TestSuite
-validateIfUserCanAddNewAddress(com.naveenautomation.TestPages.AddressPageTest)  Time elapsed: 14.571 s  <<< FAILURE!
-org.openqa.selenium.NoSuchElementException: 
-Cannot locate element with text: Ontario
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'GURSANDEEP_VIRK', ip: '10.0.0.61', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16'
-Driver info: driver.version: unknown
-	at com.naveenautomation.TestPages.AddressPageTest.validateIfUserCanAddNewAddress(AddressPageTest.java:35)
+Tests run: 78, Failures: 14, Errors: 0, Skipped: 64, Time elapsed: 2,530.4 s <<< FAILURE! - in TestSuite
+launch(com.naveenautomation.TestPages.AccountPageTest)  Time elapsed: 182.266 s  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: 'GURSANDEEP_VIRK', ip: '172.20.10.2'
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*, --incognito, --headless], extensions: []}}]}]
+Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*, --incognito, --headless], extensions: []}}
+	at com.naveenautomation.TestPages.AccountPageTest.launch(AccountPageTest.java:30)
+Caused by: java.lang.RuntimeException: NettyHttpHandler request execution error
+	at com.naveenautomation.TestPages.AccountPageTest.launch(AccountPageTest.java:30)
+Caused by: java.util.concurrent.ExecutionException: java.util.concurrent.TimeoutException: Request timeout to localhost/127.0.0.1:4444 after 180000 ms
+	at com.naveenautomation.TestPages.AccountPageTest.launch(AccountPageTest.java:30)
+Caused by: java.util.concurrent.TimeoutException: Request timeout to localhost/127.0.0.1:4444 after 180000 ms
+
+launch(com.naveenautomation.TestPages.RewardPageTest)  Time elapsed: 362.835 s  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: 'GURSANDEEP_VIRK', ip: '172.20.10.2'
+	at com.naveenautomation.TestPages.RewardPageTest.launch(RewardPageTest.java:22)
+Caused by: org.openqa.selenium.TimeoutException: 
+java.util.concurrent.TimeoutException
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16'
+Driver info: driver.version: RemoteWebDriver
+	at com.naveenautomation.TestPages.RewardPageTest.launch(RewardPageTest.java:22)
+Caused by: java.util.concurrent.TimeoutException
+	at com.naveenautomation.TestPages.RewardPageTest.launch(RewardPageTest.java:22)
+
+launch(com.naveenautomation.TestPages.AddressPageTest)  Time elapsed: 543.188 s  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: 'GURSANDEEP_VIRK', ip: '172.20.10.2'
+	at com.naveenautomation.TestPages.AddressPageTest.launch(AddressPageTest.java:26)
+Caused by: org.openqa.selenium.TimeoutException: 
+java.util.concurrent.TimeoutException
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16'
+Driver info: driver.version: RemoteWebDriver
+	at com.naveenautomation.TestPages.AddressPageTest.launch(AddressPageTest.java:26)
+Caused by: java.util.concurrent.TimeoutException
+	at com.naveenautomation.TestPages.AddressPageTest.launch(AddressPageTest.java:26)
+
+launch(com.naveenautomation.TestPages.SpecialPageTest)  Time elapsed: 723.69 s  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: 'GURSANDEEP_VIRK', ip: '172.20.10.2'
+	at com.naveenautomation.TestPages.SpecialPageTest.launch(SpecialPageTest.java:21)
+Caused by: org.openqa.selenium.TimeoutException: 
+java.util.concurrent.TimeoutException
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16'
+Driver info: driver.version: RemoteWebDriver
+	at com.naveenautomation.TestPages.SpecialPageTest.launch(SpecialPageTest.java:21)
+Caused by: java.util.concurrent.TimeoutException
+	at com.naveenautomation.TestPages.SpecialPageTest.launch(SpecialPageTest.java:21)
+
+launch(com.naveenautomation.TestPages.AffiliateEditPageTest)  Time elapsed: 904.137 s  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: 'GURSANDEEP_VIRK', ip: '172.20.10.2'
+	at com.naveenautomation.TestPages.AffiliateEditPageTest.launch(AffiliateEditPageTest.java:21)
+Caused by: org.openqa.selenium.TimeoutException: 
+java.util.concurrent.TimeoutException
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16'
+Driver info: driver.version: RemoteWebDriver
+	at com.naveenautomation.TestPages.AffiliateEditPageTest.launch(AffiliateEditPageTest.java:21)
+Caused by: java.util.concurrent.TimeoutException
+	at com.naveenautomation.TestPages.AffiliateEditPageTest.launch(AffiliateEditPageTest.java:21)
+
+launch(com.naveenautomation.TestPages.TransactionPageTest)  Time elapsed: 1,084.362 s  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: 'GURSANDEEP_VIRK', ip: '172.20.10.2'
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*, --incognito, --headless], extensions: []}}]}]
+Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*, --incognito, --headless], extensions: []}}
+	at com.naveenautomation.TestPages.TransactionPageTest.launch(TransactionPageTest.java:22)
+Caused by: java.lang.RuntimeException: NettyHttpHandler request execution error
+	at com.naveenautomation.TestPages.TransactionPageTest.launch(TransactionPageTest.java:22)
+Caused by: java.util.concurrent.ExecutionException: java.util.concurrent.TimeoutException: Request timeout to localhost/127.0.0.1:4444 after 180000 ms
+	at com.naveenautomation.TestPages.TransactionPageTest.launch(TransactionPageTest.java:22)
+Caused by: java.util.concurrent.TimeoutException: Request timeout to localhost/127.0.0.1:4444 after 180000 ms
+
+launch(com.naveenautomation.TestPages.ContactPageTest)  Time elapsed: 1,264.767 s  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: 'GURSANDEEP_VIRK', ip: '172.20.10.2'
+	at com.naveenautomation.TestPages.ContactPageTest.launch(ContactPageTest.java:21)
+Caused by: org.openqa.selenium.TimeoutException: 
+java.util.concurrent.TimeoutException
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16'
+Driver info: driver.version: RemoteWebDriver
+	at com.naveenautomation.TestPages.ContactPageTest.launch(ContactPageTest.java:21)
+Caused by: java.util.concurrent.TimeoutException
+	at com.naveenautomation.TestPages.ContactPageTest.launch(ContactPageTest.java:21)
+
+launch(com.naveenautomation.TestPages.VoucherSuccessPageTest)  Time elapsed: 1,445.364 s  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: 'GURSANDEEP_VIRK', ip: '172.20.10.2'
+	at com.naveenautomation.TestPages.VoucherSuccessPageTest.launch(VoucherSuccessPageTest.java:23)
+Caused by: org.openqa.selenium.TimeoutException: 
+java.util.concurrent.TimeoutException
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16'
+Driver info: driver.version: RemoteWebDriver
+	at com.naveenautomation.TestPages.VoucherSuccessPageTest.launch(VoucherSuccessPageTest.java:23)
+Caused by: java.util.concurrent.TimeoutException
+	at com.naveenautomation.TestPages.VoucherSuccessPageTest.launch(VoucherSuccessPageTest.java:23)
+
+launch(com.naveenautomation.TestPages.ContactSuccessPageTest)  Time elapsed: 1,625.913 s  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: 'GURSANDEEP_VIRK', ip: '172.20.10.2'
+	at com.naveenautomation.TestPages.ContactSuccessPageTest.launch(ContactSuccessPageTest.java:23)
+Caused by: org.openqa.selenium.TimeoutException: 
+java.util.concurrent.TimeoutException
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16'
+Driver info: driver.version: RemoteWebDriver
+	at com.naveenautomation.TestPages.ContactSuccessPageTest.launch(ContactSuccessPageTest.java:23)
+Caused by: java.util.concurrent.TimeoutException
+	at com.naveenautomation.TestPages.ContactSuccessPageTest.launch(ContactSuccessPageTest.java:23)
+
+launch(com.naveenautomation.TestPages.DownloadPageTest)  Time elapsed: 1,806.24 s  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: 'GURSANDEEP_VIRK', ip: '172.20.10.2'
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*, --incognito, --headless], extensions: []}}]}]
+Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*, --incognito, --headless], extensions: []}}
+	at com.naveenautomation.TestPages.DownloadPageTest.launch(DownloadPageTest.java:22)
+Caused by: java.lang.RuntimeException: NettyHttpHandler request execution error
+	at com.naveenautomation.TestPages.DownloadPageTest.launch(DownloadPageTest.java:22)
+Caused by: java.util.concurrent.ExecutionException: java.util.concurrent.TimeoutException: Request timeout to localhost/127.0.0.1:4444 after 180000 ms
+	at com.naveenautomation.TestPages.DownloadPageTest.launch(DownloadPageTest.java:22)
+Caused by: java.util.concurrent.TimeoutException: Request timeout to localhost/127.0.0.1:4444 after 180000 ms
+
+launch(com.naveenautomation.TestPages.LoginPageTest)  Time elapsed: 1,986.496 s  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: 'GURSANDEEP_VIRK', ip: '172.20.10.2'
+	at com.naveenautomation.TestPages.LoginPageTest.launch(LoginPageTest.java:23)
+Caused by: org.openqa.selenium.TimeoutException: 
+java.util.concurrent.TimeoutException
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16'
+Driver info: driver.version: RemoteWebDriver
+	at com.naveenautomation.TestPages.LoginPageTest.launch(LoginPageTest.java:23)
+Caused by: java.util.concurrent.TimeoutException
+	at com.naveenautomation.TestPages.LoginPageTest.launch(LoginPageTest.java:23)
+
+launch(com.naveenautomation.TestPages.LogoutPageTest)  Time elapsed: 2,169.105 s  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: 'GURSANDEEP_VIRK', ip: '172.20.10.2'
+	at com.naveenautomation.TestPages.LogoutPageTest.launch(LogoutPageTest.java:22)
+Caused by: org.openqa.selenium.TimeoutException: 
+java.util.concurrent.TimeoutException
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16'
+Driver info: driver.version: RemoteWebDriver
+	at com.naveenautomation.TestPages.LogoutPageTest.launch(LogoutPageTest.java:22)
+Caused by: java.util.concurrent.TimeoutException
+	at com.naveenautomation.TestPages.LogoutPageTest.launch(LogoutPageTest.java:22)
+
+launch(com.naveenautomation.TestPages.MacPageTest)  Time elapsed: 2,349.192 s  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: 'GURSANDEEP_VIRK', ip: '172.20.10.2'
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*, --incognito, --headless], extensions: []}}]}]
+Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*, --incognito, --headless], extensions: []}}
+	at com.naveenautomation.TestPages.MacPageTest.launch(MacPageTest.java:21)
+Caused by: java.lang.RuntimeException: NettyHttpHandler request execution error
+	at com.naveenautomation.TestPages.MacPageTest.launch(MacPageTest.java:21)
+Caused by: java.util.concurrent.ExecutionException: java.util.concurrent.TimeoutException: Request timeout to localhost/127.0.0.1:4444 after 180000 ms
+	at com.naveenautomation.TestPages.MacPageTest.launch(MacPageTest.java:21)
+Caused by: java.util.concurrent.TimeoutException: Request timeout to localhost/127.0.0.1:4444 after 180000 ms
+
+launch(com.naveenautomation.TestPages.OrderHistoryPageTest)  Time elapsed: 2,529.325 s  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: 'GURSANDEEP_VIRK', ip: '172.20.10.2'
+	at com.naveenautomation.TestPages.OrderHistoryPageTest.launch(OrderHistoryPageTest.java:22)
+Caused by: org.openqa.selenium.TimeoutException: 
+java.util.concurrent.TimeoutException
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16'
+Driver info: driver.version: RemoteWebDriver
+	at com.naveenautomation.TestPages.OrderHistoryPageTest.launch(OrderHistoryPageTest.java:22)
+Caused by: java.util.concurrent.TimeoutException
+	at com.naveenautomation.TestPages.OrderHistoryPageTest.launch(OrderHistoryPageTest.java:22)
 

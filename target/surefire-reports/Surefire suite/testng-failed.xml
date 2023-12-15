@@ -3,6 +3,63 @@
 <suite thread-count="1" name="Failed suite [Surefire suite]" verbose="0">
   <test thread-count="1" name="Surefire test(failed)" verbose="0">
     <classes>
+      <class name="com.naveenautomation.TestPages.TransactionPageTest">
+        <methods>
+          <include name="loggerSetup"/>
+          <include name="launch"/>
+          <include name="validateIfUserHasNotAnyTransaction"/>
+          <include name="quitBrowser"/>
+        </methods>
+      </class> <!-- com.naveenautomation.TestPages.TransactionPageTest -->
+      <class name="com.naveenautomation.TestPages.SpecialPageTest">
+        <methods>
+          <include name="loggerSetup"/>
+          <include name="validateIfUserCanAddProductToCompareList"/>
+          <include name="launch"/>
+          <include name="quitBrowser"/>
+        </methods>
+      </class> <!-- com.naveenautomation.TestPages.SpecialPageTest -->
+      <class name="com.naveenautomation.TestPages.LogoutPageTest">
+        <methods>
+          <include name="quitBrowser"/>
+          <include name="loggerSetup"/>
+          <include name="validateLogoutFunctionality"/>
+          <include name="launch"/>
+        </methods>
+      </class> <!-- com.naveenautomation.TestPages.LogoutPageTest -->
+      <class name="com.naveenautomation.TestPages.ContactSuccessPageTest">
+        <methods>
+          <include name="validateIfUserCanSuccessfullySubmitEnquiryOnContactUs"/>
+          <include name="loggerSetup"/>
+          <include name="quitBrowser"/>
+          <include name="launch"/>
+        </methods>
+      </class> <!-- com.naveenautomation.TestPages.ContactSuccessPageTest -->
+      <class name="com.naveenautomation.TestPages.DownloadPageTest">
+        <methods>
+          <include name="launch"/>
+          <include name="loggerSetup"/>
+          <include name="validateIfUserHasNotAnyDownloads"/>
+          <include name="quitBrowser"/>
+        </methods>
+      </class> <!-- com.naveenautomation.TestPages.DownloadPageTest -->
+      <class name="com.naveenautomation.TestPages.ContactPageTest">
+        <methods>
+          <include name="loggerSetup"/>
+          <include name="quitBrowser"/>
+          <include name="validateIfContactUsFailedWithNoEmailInput"/>
+          <include name="validateIfContactUsFailedWithLessEnquiryChar"/>
+          <include name="launch"/>
+        </methods>
+      </class> <!-- com.naveenautomation.TestPages.ContactPageTest -->
+      <class name="com.naveenautomation.TestPages.MacPageTest">
+        <methods>
+          <include name="loggerSetup"/>
+          <include name="quitBrowser"/>
+          <include name="validateIfUserCanAddMacToWishList"/>
+          <include name="launch"/>
+        </methods>
+      </class> <!-- com.naveenautomation.TestPages.MacPageTest -->
       <class name="com.naveenautomation.TestPages.AddressPageTest">
         <methods>
           <include name="loggerSetup"/>
@@ -11,6 +68,61 @@
           <include name="launch"/>
         </methods>
       </class> <!-- com.naveenautomation.TestPages.AddressPageTest -->
+      <class name="com.naveenautomation.TestPages.VoucherSuccessPageTest">
+        <methods>
+          <include name="loggerSetup"/>
+          <include name="quitBrowser"/>
+          <include name="launch"/>
+          <include name="validateIfUserCanBuyVoucher"/>
+          <include name="validateIfRequiredFieldsAreEmptyThenUserCannotBuyVoucher"/>
+        </methods>
+      </class> <!-- com.naveenautomation.TestPages.VoucherSuccessPageTest -->
+      <class name="com.naveenautomation.TestPages.OrderHistoryPageTest">
+        <methods>
+          <include name="loggerSetup"/>
+          <include name="quitBrowser"/>
+          <include name="validateIfUserHasNotAnyOrderHistory"/>
+          <include name="launch"/>
+        </methods>
+      </class> <!-- com.naveenautomation.TestPages.OrderHistoryPageTest -->
+      <class name="com.naveenautomation.TestPages.AccountPageTest">
+        <methods>
+          <include name="validateNewspaperSubsciption"/>
+          <include name="loggerSetup"/>
+          <include name="validateProductReturn"/>
+          <include name="validateIfUserCanFillAffiliateEditForm"/>
+          <include name="launch"/>
+          <include name="validateUserCanUpdatePersonalInfo"/>
+          <include name="quitBrowser"/>
+        </methods>
+      </class> <!-- com.naveenautomation.TestPages.AccountPageTest -->
+      <class name="com.naveenautomation.TestPages.LoginPageTest">
+        <methods>
+          <include name="loggerSetup"/>
+          <include name="validateUserCanLoginWithValidCredentials"/>
+          <include name="validateUserCanNotLoginWithInValidCredentials"/>
+          <include name="launch"/>
+          <include name="validateEmailForForgottenPassword"/>
+          <include name="validateLoginWithMultipleCredentials"/>
+          <include name="quitBrowser"/>
+        </methods>
+      </class> <!-- com.naveenautomation.TestPages.LoginPageTest -->
+      <class name="com.naveenautomation.TestPages.AffiliateEditPageTest">
+        <methods>
+          <include name="loggerSetup"/>
+          <include name="validateUserFailedToEditAffilateWithNoPayeeInput"/>
+          <include name="launch"/>
+          <include name="quitBrowser"/>
+        </methods>
+      </class> <!-- com.naveenautomation.TestPages.AffiliateEditPageTest -->
+      <class name="com.naveenautomation.TestPages.RewardPageTest">
+        <methods>
+          <include name="loggerSetup"/>
+          <include name="validateIfUserHasNoRewardPoints"/>
+          <include name="quitBrowser"/>
+          <include name="launch"/>
+        </methods>
+      </class> <!-- com.naveenautomation.TestPages.RewardPageTest -->
     </classes>
   </test> <!-- Surefire test(failed) -->
 </suite> <!-- Failed suite [Surefire suite] -->
